@@ -1,0 +1,38 @@
+NOM : Modifier profil
+
+Description : un joueur souhaite changer son profil
+
+Acteur : Joueur authentifié
+
+
+Précondition :
+
+
+Séquencement nominal : 
+	1 - le joueur souhaite modifier son profil
+	2 - le systeme fornit au joueur un formulaire pour modifier son profil
+	3 - le joueur saisie  ces informations
+	4 - le systeme valide les informations
+	
+
+Post Condition :
+	- le profil du jouer a bien été modifier
+
+Alternative :
+ 	A1 : le joueur n'a pas renseigner les information obligatoires
+	- en SN4 : le systeme redemande la saisi des information critique
+	retour : SN3
+
+	
+
+Exception :
+	E1 : le joueur veut anuler 
+	- en SN3 : le joueur veut annuler la mise a jour
+		- le systeme retour au menu
+
+	 
+		
+
+
+	
+			
