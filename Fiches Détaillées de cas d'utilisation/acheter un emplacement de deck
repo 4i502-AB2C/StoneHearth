@@ -1,0 +1,43 @@
+NOM : acheter un emplacement de deck 
+
+Description : un joueur souhaite acheter un emplacement de deck 
+
+Acteur : Joueur authentifié
+
+
+Précondition :
+
+
+Séquencement nominal : 
+	1 - le joueur souhaite acheter un emplacement de deck 
+	2 - le systeme affiche le prix et demande la validation du payment
+	3 - le joueur valide l'achat
+	4 - le systeme debite le compte et enregistre l'emplacement
+	
+
+Post Condition :
+	- l'emplacement de deck est enregistré
+
+Alternative :
+ 	A1 : le joueur n'a pas renseigner son moyen de payment
+	- en SN2 : le systeme deùande le renseignement du moyen de payment 
+		- appel du cas <<Saisir Coordoné Bancaire >>
+	retour : SN3
+
+	
+
+Exception :
+	E1 : le joueur veut anuler 
+	- en SN3 : le joueur veut annuler l'achat
+		- le systeme retour au menu
+
+	E2 : le payment est refuser
+	- en SN4: la transaction est annuler
+		- retour au menu
+	 
+		
+
+
+	
+				
+		  
