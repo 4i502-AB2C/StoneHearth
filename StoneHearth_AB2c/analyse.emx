@@ -1616,30 +1616,30 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_oCYdcLJbEeenUo0BovABMw" covered="_QeXLwLJWEeenUo0BovABMw" message="_oCX2YLJbEeenUo0BovABMw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TMov4LJWEeenUo0BovABMw" covered="_QeXLwLJWEeenUo0BovABMw" event="_sK3IALJWEeenUo0BovABMw" message="_TMpW8LJWEeenUo0BovABMw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TMp-ALJWEeenUo0BovABMw" covered="_8M8hALJVEeenUo0BovABMw" event="_sK3vELJWEeenUo0BovABMw" message="_TMpW8LJWEeenUo0BovABMw"/>
-        <message xmi:id="_TMkecLJWEeenUo0BovABMw" name="buyCard" receiveEvent="_TMnhwLJWEeenUo0BovABMw" sendEvent="_TMm6sLJWEeenUo0BovABMw" connector="_TMqlELJWEeenUo0BovABMw">
+        <message xmi:id="_TMkecLJWEeenUo0BovABMw" name="AcheterCarte" receiveEvent="_TMnhwLJWEeenUo0BovABMw" sendEvent="_TMm6sLJWEeenUo0BovABMw" connector="_TMqlELJWEeenUo0BovABMw">
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_MOWsULUNEeeUoumg8bdvQw">
             <eAnnotations xmi:id="_MOXTYLUNEeeUoumg8bdvQw" source="Parameter" references="_qFqEILJYEeenUo0BovABMw"/>
           </argument>
         </message>
-        <message xmi:id="_TMpW8LJWEeenUo0BovABMw" name="buyCard" messageSort="reply" receiveEvent="_TMp-ALJWEeenUo0BovABMw" sendEvent="_TMov4LJWEeenUo0BovABMw" connector="_TMqlELJWEeenUo0BovABMw"/>
-        <message xmi:id="_b3ANELJYEeenUo0BovABMw" name="DisplayBuyableCards" receiveEvent="_b3A0IbJYEeenUo0BovABMw" sendEvent="_b3A0ILJYEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
-        <message xmi:id="_b3CCQbJYEeenUo0BovABMw" name="DisplayBuyableCards" messageSort="reply" receiveEvent="_b3DQYLJYEeenUo0BovABMw" sendEvent="_b3CCQLJYEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
-        <message xmi:id="_LHtIwLJZEeenUo0BovABMw" name="Prompt for card to buy" receiveEvent="_LHuW4LJZEeenUo0BovABMw" sendEvent="_LHtv0LJZEeenUo0BovABMw" connector="_TMqlELJWEeenUo0BovABMw"/>
-        <message xmi:id="_LHvlAbJZEeenUo0BovABMw" name="Prompt for card to buy" messageSort="reply" receiveEvent="_LHwMELJZEeenUo0BovABMw" sendEvent="_LHvlALJZEeenUo0BovABMw" connector="_TMqlELJWEeenUo0BovABMw"/>
-        <message xmi:id="_QtGD8LJZEeenUo0BovABMw" name="GetCardPrice" receiveEvent="_QtHSELJZEeenUo0BovABMw" sendEvent="_QtGrALJZEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
-        <message xmi:id="_QtIgMLJZEeenUo0BovABMw" name="GetCardPrice" messageSort="reply" receiveEvent="_QtIgMbJZEeenUo0BovABMw" sendEvent="_QtH5IbJZEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
-        <message xmi:id="_VViOsLJZEeenUo0BovABMw" name="CheckPlayerJewels" receiveEvent="_VVjc0LJZEeenUo0BovABMw" sendEvent="_VVi1wLJZEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
-        <message xmi:id="_VVlSALJZEeenUo0BovABMw" name="CheckPlayerJewels" messageSort="reply" receiveEvent="_VVlSAbJZEeenUo0BovABMw" sendEvent="_VVkq8LJZEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
-        <message xmi:id="_bRblYLJZEeenUo0BovABMw" name="Prompt for confirmation" receiveEvent="_bRcMcbJZEeenUo0BovABMw" sendEvent="_bRcMcLJZEeenUo0BovABMw" connector="_TMqlELJWEeenUo0BovABMw"/>
-        <message xmi:id="_bRczgbJZEeenUo0BovABMw" name="Accept" messageSort="reply" receiveEvent="_bRdakLJZEeenUo0BovABMw" sendEvent="_bRczgLJZEeenUo0BovABMw" connector="_TMqlELJWEeenUo0BovABMw"/>
-        <message xmi:id="_zaYiYLJZEeenUo0BovABMw" name="checkBankAccount" receiveEvent="_zaZwgLJZEeenUo0BovABMw" sendEvent="_zaZJcLJZEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
-        <message xmi:id="_zaa-oLJZEeenUo0BovABMw" name="checkBankAccount" messageSort="reply" receiveEvent="_zaa-obJZEeenUo0BovABMw" sendEvent="_zaaXkLJZEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
+        <message xmi:id="_TMpW8LJWEeenUo0BovABMw" name="AcheterCarte" messageSort="reply" receiveEvent="_TMp-ALJWEeenUo0BovABMw" sendEvent="_TMov4LJWEeenUo0BovABMw" connector="_TMqlELJWEeenUo0BovABMw"/>
+        <message xmi:id="_b3ANELJYEeenUo0BovABMw" name="AfficherCartesAchetables" receiveEvent="_b3A0IbJYEeenUo0BovABMw" sendEvent="_b3A0ILJYEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
+        <message xmi:id="_b3CCQbJYEeenUo0BovABMw" name="AfficherCartesAchetables" messageSort="reply" receiveEvent="_b3DQYLJYEeenUo0BovABMw" sendEvent="_b3CCQLJYEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
+        <message xmi:id="_LHtIwLJZEeenUo0BovABMw" name="Demander Carte A Acheter" receiveEvent="_LHuW4LJZEeenUo0BovABMw" sendEvent="_LHtv0LJZEeenUo0BovABMw" connector="_TMqlELJWEeenUo0BovABMw"/>
+        <message xmi:id="_LHvlAbJZEeenUo0BovABMw" name="Choisir Carte" messageSort="reply" receiveEvent="_LHwMELJZEeenUo0BovABMw" sendEvent="_LHvlALJZEeenUo0BovABMw" connector="_TMqlELJWEeenUo0BovABMw"/>
+        <message xmi:id="_QtGD8LJZEeenUo0BovABMw" name="GetPrixCarte" receiveEvent="_QtHSELJZEeenUo0BovABMw" sendEvent="_QtGrALJZEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
+        <message xmi:id="_QtIgMLJZEeenUo0BovABMw" name="GetPrixCarte" messageSort="reply" receiveEvent="_QtIgMbJZEeenUo0BovABMw" sendEvent="_QtH5IbJZEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
+        <message xmi:id="_VViOsLJZEeenUo0BovABMw" name="VerifierJoyaux" receiveEvent="_VVjc0LJZEeenUo0BovABMw" sendEvent="_VVi1wLJZEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
+        <message xmi:id="_VVlSALJZEeenUo0BovABMw" name="VerifierJoyaux" messageSort="reply" receiveEvent="_VVlSAbJZEeenUo0BovABMw" sendEvent="_VVkq8LJZEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
+        <message xmi:id="_bRblYLJZEeenUo0BovABMw" name="Demander de confirmation" receiveEvent="_bRcMcbJZEeenUo0BovABMw" sendEvent="_bRcMcLJZEeenUo0BovABMw" connector="_TMqlELJWEeenUo0BovABMw"/>
+        <message xmi:id="_bRczgbJZEeenUo0BovABMw" name="Confirmation" messageSort="reply" receiveEvent="_bRdakLJZEeenUo0BovABMw" sendEvent="_bRczgLJZEeenUo0BovABMw" connector="_TMqlELJWEeenUo0BovABMw"/>
+        <message xmi:id="_zaYiYLJZEeenUo0BovABMw" name="VerifierCompteBancaire" receiveEvent="_zaZwgLJZEeenUo0BovABMw" sendEvent="_zaZJcLJZEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
+        <message xmi:id="_zaa-oLJZEeenUo0BovABMw" name="VerifierCompteBancaire" messageSort="reply" receiveEvent="_zaa-obJZEeenUo0BovABMw" sendEvent="_zaaXkLJZEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
         <message xmi:id="_dnFjQLJbEeenUo0BovABMw" name="RemoveFromCollection" receiveEvent="_dnGKUbJbEeenUo0BovABMw" sendEvent="_dnGKULJbEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
         <message xmi:id="_dnGxYrJbEeenUo0BovABMw" name="RemoveFromCollection" messageSort="reply" receiveEvent="_dnHYcLJbEeenUo0BovABMw" sendEvent="_dnGxYbJbEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
-        <message xmi:id="_holp0LJbEeenUo0BovABMw" name="MakePlayerPay" receiveEvent="_homQ4bJbEeenUo0BovABMw" sendEvent="_homQ4LJbEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
-        <message xmi:id="_honfALJbEeenUo0BovABMw" name="MakePlayerPay" messageSort="reply" receiveEvent="_honfAbJbEeenUo0BovABMw" sendEvent="_hom38bJbEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
-        <message xmi:id="_oCUMALJbEeenUo0BovABMw" name="Do it again?" receiveEvent="_oCWBMLJbEeenUo0BovABMw" sendEvent="_oCVaILJbEeenUo0BovABMw" connector="_TMqlELJWEeenUo0BovABMw"/>
-        <message xmi:id="_oCX2YLJbEeenUo0BovABMw" name="Do it again?" messageSort="reply" receiveEvent="_oCYdcLJbEeenUo0BovABMw" sendEvent="_oCXPULJbEeenUo0BovABMw" connector="_TMqlELJWEeenUo0BovABMw"/>
+        <message xmi:id="_holp0LJbEeenUo0BovABMw" name="DebiterJoueur" receiveEvent="_homQ4bJbEeenUo0BovABMw" sendEvent="_homQ4LJbEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
+        <message xmi:id="_honfALJbEeenUo0BovABMw" name="DebiterJoueur" messageSort="reply" receiveEvent="_honfAbJbEeenUo0BovABMw" sendEvent="_hom38bJbEeenUo0BovABMw" connector="_K-miALJXEeenUo0BovABMw"/>
+        <message xmi:id="_oCUMALJbEeenUo0BovABMw" name="Acheter une autre?" receiveEvent="_oCWBMLJbEeenUo0BovABMw" sendEvent="_oCVaILJbEeenUo0BovABMw" connector="_TMqlELJWEeenUo0BovABMw"/>
+        <message xmi:id="_oCX2YLJbEeenUo0BovABMw" name="Non" messageSort="reply" receiveEvent="_oCYdcLJbEeenUo0BovABMw" sendEvent="_oCXPULJbEeenUo0BovABMw" connector="_TMqlELJWEeenUo0BovABMw"/>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_WTwZkLUOEeeUoumg8bdvQw" name="A1-CarteTropChere">
         <eAnnotations xmi:id="_WT1SELUOEeeUoumg8bdvQw" source="uml2.diagrams">
@@ -1666,7 +1666,7 @@
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nk7mfbUOEeeUoumg8bdvQw" x="714" y="344" width="3174" height="18519"/>
                 </children>
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_nk7mfrUOEeeUoumg8bdvQw" element="_nkh90bUOEeeUoumg8bdvQw" fontName="Noto Sans" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nk7mf7UOEeeUoumg8bdvQw" x="-1" y="1322" height="1322"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nk7mf7UOEeeUoumg8bdvQw" x="-1" y="1322" height="899"/>
                 </children>
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_nk8NgLUOEeeUoumg8bdvQw" element="_nkloMLUOEeeUoumg8bdvQw" fontName="Noto Sans" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nk8NgbUOEeeUoumg8bdvQw" x="-1" y="1322" height="1322"/>
@@ -1685,6 +1685,17 @@
                 </children>
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_nk80kLUOEeeUoumg8bdvQw" element="_nkjL8bUOEeeUoumg8bdvQw" fontName="Noto Sans" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nk80kbUOEeeUoumg8bdvQw" x="-1" y="1322" height="1322"/>
+                </children>
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_hIxUsLWlEeeitZnrLxbwDQ" element="_hIscMLWlEeeitZnrLxbwDQ" fontName="Noto Sans" fontHeight="8" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                  <eAnnotations xmi:id="_hIx7wLWlEeeitZnrLxbwDQ" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                    <details xmi:id="_hIx7wbWlEeeitZnrLxbwDQ" key="ImageModeStyle" value="true"/>
+                  </eAnnotations>
+                  <children xmi:type="notation:DecorationNode" xmi:id="_hIyi0LWlEeeitZnrLxbwDQ" type="ImageCompartment">
+                    <layoutConstraint xmi:type="notation:Size" xmi:id="_hIyi0bWlEeeitZnrLxbwDQ" width="1320" height="1320"/>
+                  </children>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_hIyi0rWlEeeitZnrLxbwDQ" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_hIyi07WlEeeitZnrLxbwDQ" type="CommentBody"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hIxUsbWlEeeitZnrLxbwDQ" x="10594" y="11809" width="4179" height="1930"/>
                 </children>
               </children>
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_WT1SFLUOEeeUoumg8bdvQw" type="Name"/>
@@ -1707,7 +1718,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nk-CtLUOEeeUoumg8bdvQw" x="-262" y="183"/>
               </children>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nk-CtbUOEeeUoumg8bdvQw" points="[0, 0, 159, 0]$[-159, 0, 0, 0]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nk-CtrUOEeeUoumg8bdvQw" id="-1750580863:396"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nk-CtrUOEeeUoumg8bdvQw" id="-1750580863:899"/>
               <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nk-Ct7UOEeeUoumg8bdvQw" id="168061484:0"/>
             </edges>
             <edges xmi:type="umlnotation:UMLConnector" xmi:id="_nk-CuLUOEeeUoumg8bdvQw" element="_nk3VAbUOEeeUoumg8bdvQw" source="_nk7mcLUOEeeUoumg8bdvQw" target="_nk7mcLUOEeeUoumg8bdvQw" fontName="Noto Sans" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -1830,8 +1841,17 @@
               <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nlAfBrUOEeeUoumg8bdvQw" id="-1750965612:1322"/>
               <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nlAfB7UOEeeUoumg8bdvQw" id="1323546060:264"/>
             </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_kQVikLWlEeeitZnrLxbwDQ" type="Reference" source="_hIxUsLWlEeeitZnrLxbwDQ" target="_nk7mfrUOEeeUoumg8bdvQw" fontName="Noto Sans" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <element xsi:nil="true"/>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kQVikbWlEeeitZnrLxbwDQ" points="[-14, -2, 83, 13]$[-96, 6, 1, 21]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kQabELWlEeeitZnrLxbwDQ" id="(0.09260588657573582,0.599481865284974)"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kQabEbWlEeeitZnrLxbwDQ" id="(0.6666666666666666,0.9795183820378781)"/>
+            </edges>
           </contents>
         </eAnnotations>
+        <ownedComment xmi:id="_hIscMLWlEeeitZnrLxbwDQ" annotatedElement="_nkh90bUOEeeUoumg8bdvQw">
+          <body>&lt;p>Retourner a NC1.2&lt;/p></body>
+        </ownedComment>
         <lifeline xmi:id="_nkeTcLUOEeeUoumg8bdvQw" name="joueur" represents="_8M9vILJVEeenUo0BovABMw" coveredBy="_nkhWwLUOEeeUoumg8bdvQw _nk0RsLUOEeeUoumg8bdvQw _nkm2UbUOEeeUoumg8bdvQw _nkndYLUOEeeUoumg8bdvQw _nkndYbUOEeeUoumg8bdvQw _nks88LUOEeeUoumg8bdvQw _nks88bUOEeeUoumg8bdvQw _nktkALUOEeeUoumg8bdvQw"/>
         <lifeline xmi:id="_nke6gLUOEeeUoumg8bdvQw" name="stoneHearth" represents="_QeZoALJWEeenUo0BovABMw" coveredBy="_nkh90LUOEeeUoumg8bdvQw _nkh90bUOEeeUoumg8bdvQw _nkzqoLUOEeeUoumg8bdvQw _nklBILUOEeeUoumg8bdvQw _nklBIbUOEeeUoumg8bdvQw _nkloMLUOEeeUoumg8bdvQw _nkmPQLUOEeeUoumg8bdvQw _nkmPQbUOEeeUoumg8bdvQw _nkm2ULUOEeeUoumg8bdvQw _nkoEcLUOEeeUoumg8bdvQw _nkoEcbUOEeeUoumg8bdvQw _nkorgLUOEeeUoumg8bdvQw _nkpSkLUOEeeUoumg8bdvQw _nkp5oLUOEeeUoumg8bdvQw _nkp5obUOEeeUoumg8bdvQw _nkqgsLUOEeeUoumg8bdvQw _nkrHwLUOEeeUoumg8bdvQw _nkrHwbUOEeeUoumg8bdvQw _nkru0LUOEeeUoumg8bdvQw _nksV4LUOEeeUoumg8bdvQw _nksV4bUOEeeUoumg8bdvQw _nktkAbUOEeeUoumg8bdvQw _nkik4LUOEeeUoumg8bdvQw _nkjL8LUOEeeUoumg8bdvQw _nkjL8bUOEeeUoumg8bdvQw _nkjzALUOEeeUoumg8bdvQw _nkkaELUOEeeUoumg8bdvQw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nkhWwLUOEeeUoumg8bdvQw" covered="_nkeTcLUOEeeUoumg8bdvQw" event="_sK3IALJWEeenUo0BovABMw" message="_nk1f0bUOEeeUoumg8bdvQw"/>
@@ -1869,24 +1889,24 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nktkAbUOEeeUoumg8bdvQw" covered="_nke6gLUOEeeUoumg8bdvQw" message="_nk3VArUOEeeUoumg8bdvQw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nkzqoLUOEeeUoumg8bdvQw" covered="_nke6gLUOEeeUoumg8bdvQw" event="_sK3IALJWEeenUo0BovABMw" message="_nk4jILUOEeeUoumg8bdvQw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nk0RsLUOEeeUoumg8bdvQw" covered="_nkeTcLUOEeeUoumg8bdvQw" event="_sK3vELJWEeenUo0BovABMw" message="_nk4jILUOEeeUoumg8bdvQw"/>
-        <message xmi:id="_nk04wLUOEeeUoumg8bdvQw" name="GetCardPrice" messageSort="reply" receiveEvent="_nkp5obUOEeeUoumg8bdvQw" sendEvent="_nkp5oLUOEeeUoumg8bdvQw"/>
-        <message xmi:id="_nk1f0LUOEeeUoumg8bdvQw" name="Warn that card is too high" receiveEvent="_nks88LUOEeeUoumg8bdvQw" sendEvent="_nksV4bUOEeeUoumg8bdvQw"/>
-        <message xmi:id="_nk1f0bUOEeeUoumg8bdvQw" name="buyCard" receiveEvent="_nkh90LUOEeeUoumg8bdvQw" sendEvent="_nkhWwLUOEeeUoumg8bdvQw">
+        <message xmi:id="_nk04wLUOEeeUoumg8bdvQw" name="GetPrixCarte" messageSort="reply" receiveEvent="_nkp5obUOEeeUoumg8bdvQw" sendEvent="_nkp5oLUOEeeUoumg8bdvQw"/>
+        <message xmi:id="_nk1f0LUOEeeUoumg8bdvQw" name="Avertir que la carte est trop chère" receiveEvent="_nks88LUOEeeUoumg8bdvQw" sendEvent="_nksV4bUOEeeUoumg8bdvQw"/>
+        <message xmi:id="_nk1f0bUOEeeUoumg8bdvQw" name="AcheterCarte" receiveEvent="_nkh90LUOEeeUoumg8bdvQw" sendEvent="_nkhWwLUOEeeUoumg8bdvQw">
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_nk1f0rUOEeeUoumg8bdvQw">
             <eAnnotations xmi:id="_nk1f07UOEeeUoumg8bdvQw" source="Parameter" references="_qFqEILJYEeenUo0BovABMw"/>
           </argument>
         </message>
-        <message xmi:id="_nk2G4LUOEeeUoumg8bdvQw" name="checkBankAccount" receiveEvent="_nkjL8LUOEeeUoumg8bdvQw" sendEvent="_nkik4LUOEeeUoumg8bdvQw"/>
-        <message xmi:id="_nk2G4bUOEeeUoumg8bdvQw" name="GetCardPrice" receiveEvent="_nkorgLUOEeeUoumg8bdvQw" sendEvent="_nkoEcbUOEeeUoumg8bdvQw"/>
-        <message xmi:id="_nk2t8LUOEeeUoumg8bdvQw" name="Prompt for card to buy" messageSort="reply" receiveEvent="_nkoEcLUOEeeUoumg8bdvQw" sendEvent="_nkndYbUOEeeUoumg8bdvQw"/>
-        <message xmi:id="_nk3VALUOEeeUoumg8bdvQw" name="DisplayBuyableCards" messageSort="reply" receiveEvent="_nkmPQbUOEeeUoumg8bdvQw" sendEvent="_nkmPQLUOEeeUoumg8bdvQw"/>
-        <message xmi:id="_nk3VAbUOEeeUoumg8bdvQw" name="DisplayBuyableCards" receiveEvent="_nklBIbUOEeeUoumg8bdvQw" sendEvent="_nklBILUOEeeUoumg8bdvQw"/>
-        <message xmi:id="_nk3VArUOEeeUoumg8bdvQw" name="Warn that card is too high" messageSort="reply" receiveEvent="_nktkAbUOEeeUoumg8bdvQw" sendEvent="_nktkALUOEeeUoumg8bdvQw"/>
-        <message xmi:id="_nk38ELUOEeeUoumg8bdvQw" name="checkBankAccount" messageSort="reply" receiveEvent="_nkkaELUOEeeUoumg8bdvQw" sendEvent="_nkjzALUOEeeUoumg8bdvQw"/>
-        <message xmi:id="_nk38ErUOEeeUoumg8bdvQw" name="Prompt for card to buy" receiveEvent="_nkm2UbUOEeeUoumg8bdvQw" sendEvent="_nkm2ULUOEeeUoumg8bdvQw"/>
-        <message xmi:id="_nk4jILUOEeeUoumg8bdvQw" name="buyCard" messageSort="reply" receiveEvent="_nk0RsLUOEeeUoumg8bdvQw" sendEvent="_nkzqoLUOEeeUoumg8bdvQw"/>
-        <message xmi:id="_nk4jIbUOEeeUoumg8bdvQw" name="CheckPlayerJewels" receiveEvent="_nkrHwLUOEeeUoumg8bdvQw" sendEvent="_nkqgsLUOEeeUoumg8bdvQw"/>
-        <message xmi:id="_nk4jIrUOEeeUoumg8bdvQw" name="CheckPlayerJewels" messageSort="reply" receiveEvent="_nksV4LUOEeeUoumg8bdvQw" sendEvent="_nkru0LUOEeeUoumg8bdvQw"/>
+        <message xmi:id="_nk2G4LUOEeeUoumg8bdvQw" name="VerifierCompteBancaire" receiveEvent="_nkjL8LUOEeeUoumg8bdvQw" sendEvent="_nkik4LUOEeeUoumg8bdvQw"/>
+        <message xmi:id="_nk2G4bUOEeeUoumg8bdvQw" name="GetPrixCarte" receiveEvent="_nkorgLUOEeeUoumg8bdvQw" sendEvent="_nkoEcbUOEeeUoumg8bdvQw"/>
+        <message xmi:id="_nk2t8LUOEeeUoumg8bdvQw" name="Choisir Carte" messageSort="reply" receiveEvent="_nkoEcLUOEeeUoumg8bdvQw" sendEvent="_nkndYbUOEeeUoumg8bdvQw"/>
+        <message xmi:id="_nk3VALUOEeeUoumg8bdvQw" name="AfficherCartesAchetables" messageSort="reply" receiveEvent="_nkmPQbUOEeeUoumg8bdvQw" sendEvent="_nkmPQLUOEeeUoumg8bdvQw"/>
+        <message xmi:id="_nk3VAbUOEeeUoumg8bdvQw" name="AfficherCartesAchetables" receiveEvent="_nklBIbUOEeeUoumg8bdvQw" sendEvent="_nklBILUOEeeUoumg8bdvQw"/>
+        <message xmi:id="_nk3VArUOEeeUoumg8bdvQw" name="Avertir que la carte est trop chère" messageSort="reply" receiveEvent="_nktkAbUOEeeUoumg8bdvQw" sendEvent="_nktkALUOEeeUoumg8bdvQw"/>
+        <message xmi:id="_nk38ELUOEeeUoumg8bdvQw" name="VerifierCompteBancaire" messageSort="reply" receiveEvent="_nkkaELUOEeeUoumg8bdvQw" sendEvent="_nkjzALUOEeeUoumg8bdvQw"/>
+        <message xmi:id="_nk38ErUOEeeUoumg8bdvQw" name="Demander Carte A Acheter" receiveEvent="_nkm2UbUOEeeUoumg8bdvQw" sendEvent="_nkm2ULUOEeeUoumg8bdvQw"/>
+        <message xmi:id="_nk4jILUOEeeUoumg8bdvQw" name="AcheterCarte" messageSort="reply" receiveEvent="_nk0RsLUOEeeUoumg8bdvQw" sendEvent="_nkzqoLUOEeeUoumg8bdvQw"/>
+        <message xmi:id="_nk4jIbUOEeeUoumg8bdvQw" name="VerifierJoyaux" receiveEvent="_nkrHwLUOEeeUoumg8bdvQw" sendEvent="_nkqgsLUOEeeUoumg8bdvQw"/>
+        <message xmi:id="_nk4jIrUOEeeUoumg8bdvQw" name="VerifierJoyaux" messageSort="reply" receiveEvent="_nksV4LUOEeeUoumg8bdvQw" sendEvent="_nkru0LUOEeeUoumg8bdvQw"/>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_gmBosLUQEeeUoumg8bdvQw" name="E1-Annulation">
         <eAnnotations xmi:id="_gmC20LUQEeeUoumg8bdvQw" source="uml2.diagrams">
@@ -1894,6 +1914,7 @@
             <children xmi:type="umlnotation:UMLShape" xmi:id="_gmC20rUQEeeUoumg8bdvQw" element="_gmBosLUQEeeUoumg8bdvQw" fontName="Noto Sans" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
               <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_gmC207UQEeeUoumg8bdvQw" type="interaction_compartment">
                 <eAnnotations xmi:id="_524B4LUQEeeUoumg8bdvQw" source="Himetric"/>
+                <eAnnotations xmi:id="_N0mKwLWkEeeitZnrLxbwDQ" source="Himetric"/>
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_us0kQLUQEeeUoumg8bdvQw" element="_usxg8LUQEeeUoumg8bdvQw" fontName="Noto Sans" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                   <eAnnotations xmi:id="_us1LULUQEeeUoumg8bdvQw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
                     <details xmi:id="_us1LUbUQEeeUoumg8bdvQw" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
@@ -1910,10 +1931,10 @@
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_vEju0LUQEeeUoumg8bdvQw" type="Stereotype"/>
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_vEju0bUQEeeUoumg8bdvQw" type="Name"/>
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_vEju0rUQEeeUoumg8bdvQw" type="Parent"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEjHwbUQEeeUoumg8bdvQw" x="-3174" y="80" width="4682" height="9525"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEjHwbUQEeeUoumg8bdvQw" x="841" y="-26" width="4682" height="9525"/>
                 </children>
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_53H5grUQEeeUoumg8bdvQw" element="_526eIbUQEeeUoumg8bdvQw" fontName="Noto Sans" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_53H5g7UQEeeUoumg8bdvQw" x="-1" y="1322" height="1322"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_53H5g7UQEeeUoumg8bdvQw" x="-1" y="1322" height="502"/>
                 </children>
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_53IgkLUQEeeUoumg8bdvQw" element="_5286YbUQEeeUoumg8bdvQw" fontName="Noto Sans" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_53IgkbUQEeeUoumg8bdvQw" x="-1" y="1322" height="1322"/>
@@ -1942,7 +1963,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_53JHrLUQEeeUoumg8bdvQw" x="-262" y="183"/>
               </children>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_53JHrbUQEeeUoumg8bdvQw" points="[0, 0, 159, 0]$[-159, 0, 0, 0]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_53JHrrUQEeeUoumg8bdvQw" id="-865852674:317"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_53JHrrUQEeeUoumg8bdvQw" id="-865852674:502"/>
               <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_53JHr7UQEeeUoumg8bdvQw" id="1173441844:0"/>
             </edges>
             <edges xmi:type="umlnotation:UMLConnector" xmi:id="_53JusLUQEeeUoumg8bdvQw" element="_53GEUrUQEeeUoumg8bdvQw" source="_vEjHwLUQEeeUoumg8bdvQw" target="_vEjHwLUQEeeUoumg8bdvQw" fontName="Noto Sans" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -1985,15 +2006,15 @@
               <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_53Lj9rUQEeeUoumg8bdvQw" id="-865852674:1322"/>
               <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_53Lj97UQEeeUoumg8bdvQw" id="1173441844:264"/>
             </edges>
-            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_KDD8oLUREeeUoumg8bdvQw" element="_KCy24LUREeeUoumg8bdvQw" source="_us0kQLUQEeeUoumg8bdvQw" target="_vEjHwLUQEeeUoumg8bdvQw" fontName="Noto Sans" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
-              <children xmi:type="notation:DecorationNode" xmi:id="_KDFx0LUREeeUoumg8bdvQw" type="MessageNameLabel">
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_KDGY4LUREeeUoumg8bdvQw" type="Stereotype"/>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_KDGY4bUREeeUoumg8bdvQw" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KDFx0bUREeeUoumg8bdvQw" y="-317"/>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_auvF8LWkEeeitZnrLxbwDQ" element="_auM6cLWkEeeitZnrLxbwDQ" source="_vEjHwLUQEeeUoumg8bdvQw" target="_us0kQLUQEeeUoumg8bdvQw" fontName="Noto Sans" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_auxiMLWkEeeitZnrLxbwDQ" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_auyJQLWkEeeitZnrLxbwDQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_auyJQbWkEeeitZnrLxbwDQ" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_auxiMbWkEeeitZnrLxbwDQ" x="-155" y="235"/>
               </children>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KDD8obUREeeUoumg8bdvQw" points="[0, 0, -156, 0]$[156, 0, 0, 0]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KDL4cLUREeeUoumg8bdvQw" id="348:80"/>
-              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KDL4cbUREeeUoumg8bdvQw" id="494:0"/>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_auvF8bWkEeeitZnrLxbwDQ" points="[0, 0, 156, 0]$[-156, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_au1MkLWkEeeitZnrLxbwDQ" id="190:608"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_au1MkbWkEeeitZnrLxbwDQ" id="285:0"/>
             </edges>
           </contents>
         </eAnnotations>
@@ -2005,8 +2026,8 @@
           <end xmi:id="_53H5gLUQEeeUoumg8bdvQw" role="_8M9vILJVEeenUo0BovABMw"/>
           <end xmi:id="_53H5gbUQEeeUoumg8bdvQw" role="_QeZoALJWEeenUo0BovABMw"/>
         </ownedConnector>
-        <lifeline xmi:id="_usxg8LUQEeeUoumg8bdvQw" name="Joueur1" represents="_8M9vILJVEeenUo0BovABMw" coveredBy="_5253ELUQEeeUoumg8bdvQw _53EPILUQEeeUoumg8bdvQw _KCzd8LUREeeUoumg8bdvQw"/>
-        <lifeline xmi:id="_vEgrgLUQEeeUoumg8bdvQw" name="SYS" represents="_QeZoALJWEeenUo0BovABMw" coveredBy="_526eILUQEeeUoumg8bdvQw _526eIbUQEeeUoumg8bdvQw _53DoEbUQEeeUoumg8bdvQw _528TUbUQEeeUoumg8bdvQw _5286YLUQEeeUoumg8bdvQw _5286YbUQEeeUoumg8bdvQw _529hcLUQEeeUoumg8bdvQw _529hcbUQEeeUoumg8bdvQw _526eIrUQEeeUoumg8bdvQw _527FMLUQEeeUoumg8bdvQw _527FMbUQEeeUoumg8bdvQw _527sQLUQEeeUoumg8bdvQw _528TULUQEeeUoumg8bdvQw _KC0FALUREeeUoumg8bdvQw"/>
+        <lifeline xmi:id="_usxg8LUQEeeUoumg8bdvQw" name="Joueur1" represents="_8M9vILJVEeenUo0BovABMw" coveredBy="_5253ELUQEeeUoumg8bdvQw _53EPILUQEeeUoumg8bdvQw _auOIkLWkEeeitZnrLxbwDQ _auPWsLWkEeeitZnrLxbwDQ _auP9wLWkEeeitZnrLxbwDQ"/>
+        <lifeline xmi:id="_vEgrgLUQEeeUoumg8bdvQw" name="SYS" represents="_QeZoALJWEeenUo0BovABMw" coveredBy="_526eILUQEeeUoumg8bdvQw _526eIbUQEeeUoumg8bdvQw _53DoEbUQEeeUoumg8bdvQw _528TUbUQEeeUoumg8bdvQw _5286YLUQEeeUoumg8bdvQw _5286YbUQEeeUoumg8bdvQw _529hcLUQEeeUoumg8bdvQw _529hcbUQEeeUoumg8bdvQw _526eIrUQEeeUoumg8bdvQw _527FMLUQEeeUoumg8bdvQw _527FMbUQEeeUoumg8bdvQw _527sQLUQEeeUoumg8bdvQw _528TULUQEeeUoumg8bdvQw _auNhgLWkEeeitZnrLxbwDQ _auQk0bWkEeeitZnrLxbwDQ"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5253ELUQEeeUoumg8bdvQw" covered="_usxg8LUQEeeUoumg8bdvQw" event="_sK3IALJWEeenUo0BovABMw" message="_53GrYLUQEeeUoumg8bdvQw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_526eILUQEeeUoumg8bdvQw" covered="_vEgrgLUQEeeUoumg8bdvQw" event="_sK3vELJWEeenUo0BovABMw" message="_53GrYLUQEeeUoumg8bdvQw"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_526eIbUQEeeUoumg8bdvQw" covered="_vEgrgLUQEeeUoumg8bdvQw" start="_526eILUQEeeUoumg8bdvQw" finish="_53DoEbUQEeeUoumg8bdvQw"/>
@@ -2020,21 +2041,25 @@
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_5286YbUQEeeUoumg8bdvQw" covered="_vEgrgLUQEeeUoumg8bdvQw" start="_5286YLUQEeeUoumg8bdvQw" finish="_529hcLUQEeeUoumg8bdvQw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_529hcLUQEeeUoumg8bdvQw" covered="_vEgrgLUQEeeUoumg8bdvQw" event="_juiKALJYEeenUo0BovABMw" message="_53EPIrUQEeeUoumg8bdvQw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_529hcbUQEeeUoumg8bdvQw" covered="_vEgrgLUQEeeUoumg8bdvQw" event="_juixELJYEeenUo0BovABMw" message="_53EPIrUQEeeUoumg8bdvQw"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KCzd8LUREeeUoumg8bdvQw" covered="_usxg8LUQEeeUoumg8bdvQw" event="_MXonULUREeeUoumg8bdvQw" message="_KCy24LUREeeUoumg8bdvQw"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KC0FALUREeeUoumg8bdvQw" covered="_vEgrgLUQEeeUoumg8bdvQw" event="_MXonUbUREeeUoumg8bdvQw" message="_KCy24LUREeeUoumg8bdvQw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_auNhgLWkEeeitZnrLxbwDQ" covered="_vEgrgLUQEeeUoumg8bdvQw" message="_auM6cLWkEeeitZnrLxbwDQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_auOIkLWkEeeitZnrLxbwDQ" covered="_usxg8LUQEeeUoumg8bdvQw" message="_auM6cLWkEeeitZnrLxbwDQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_auPWsLWkEeeitZnrLxbwDQ" covered="_usxg8LUQEeeUoumg8bdvQw" start="_auOIkLWkEeeitZnrLxbwDQ" finish="_auP9wLWkEeeitZnrLxbwDQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_auP9wLWkEeeitZnrLxbwDQ" covered="_usxg8LUQEeeUoumg8bdvQw" message="_auQk0LWkEeeitZnrLxbwDQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_auQk0bWkEeeitZnrLxbwDQ" covered="_vEgrgLUQEeeUoumg8bdvQw" message="_auQk0LWkEeeitZnrLxbwDQ"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_53DoEbUQEeeUoumg8bdvQw" covered="_vEgrgLUQEeeUoumg8bdvQw" event="_sK3IALJWEeenUo0BovABMw" message="_53E2MbUQEeeUoumg8bdvQw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_53EPILUQEeeUoumg8bdvQw" covered="_usxg8LUQEeeUoumg8bdvQw" event="_sK3vELJWEeenUo0BovABMw" message="_53E2MbUQEeeUoumg8bdvQw"/>
-        <message xmi:id="_53EPIrUQEeeUoumg8bdvQw" name="DisplayBuyableCards" messageSort="reply" receiveEvent="_529hcbUQEeeUoumg8bdvQw" sendEvent="_529hcLUQEeeUoumg8bdvQw" connector="_53HScLUQEeeUoumg8bdvQw"/>
-        <message xmi:id="_53E2MbUQEeeUoumg8bdvQw" name="buyCard" messageSort="reply" receiveEvent="_53EPILUQEeeUoumg8bdvQw" sendEvent="_53DoEbUQEeeUoumg8bdvQw" connector="_53HSc7UQEeeUoumg8bdvQw"/>
-        <message xmi:id="_53E2MrUQEeeUoumg8bdvQw" name="checkBankAccount" messageSort="reply" receiveEvent="_528TULUQEeeUoumg8bdvQw" sendEvent="_527sQLUQEeeUoumg8bdvQw" connector="_53HScLUQEeeUoumg8bdvQw"/>
-        <message xmi:id="_53GEUbUQEeeUoumg8bdvQw" name="checkBankAccount" receiveEvent="_527FMLUQEeeUoumg8bdvQw" sendEvent="_526eIrUQEeeUoumg8bdvQw" connector="_53HScLUQEeeUoumg8bdvQw"/>
-        <message xmi:id="_53GEUrUQEeeUoumg8bdvQw" name="DisplayBuyableCards" receiveEvent="_5286YLUQEeeUoumg8bdvQw" sendEvent="_528TUbUQEeeUoumg8bdvQw" connector="_53HScLUQEeeUoumg8bdvQw"/>
-        <message xmi:id="_53GrYLUQEeeUoumg8bdvQw" name="buyCard" receiveEvent="_526eILUQEeeUoumg8bdvQw" sendEvent="_5253ELUQEeeUoumg8bdvQw" connector="_53HSc7UQEeeUoumg8bdvQw">
+        <message xmi:id="_53EPIrUQEeeUoumg8bdvQw" name="AfficherCartesAchetables" messageSort="reply" receiveEvent="_529hcbUQEeeUoumg8bdvQw" sendEvent="_529hcLUQEeeUoumg8bdvQw" connector="_53HScLUQEeeUoumg8bdvQw"/>
+        <message xmi:id="_53E2MbUQEeeUoumg8bdvQw" name="AcheterCarte" messageSort="reply" receiveEvent="_53EPILUQEeeUoumg8bdvQw" sendEvent="_53DoEbUQEeeUoumg8bdvQw" connector="_53HSc7UQEeeUoumg8bdvQw"/>
+        <message xmi:id="_53E2MrUQEeeUoumg8bdvQw" name="VerifierCompteBancaire" messageSort="reply" receiveEvent="_528TULUQEeeUoumg8bdvQw" sendEvent="_527sQLUQEeeUoumg8bdvQw" connector="_53HScLUQEeeUoumg8bdvQw"/>
+        <message xmi:id="_53GEUbUQEeeUoumg8bdvQw" name="VerifierCompteBancaire" receiveEvent="_527FMLUQEeeUoumg8bdvQw" sendEvent="_526eIrUQEeeUoumg8bdvQw" connector="_53HScLUQEeeUoumg8bdvQw"/>
+        <message xmi:id="_53GEUrUQEeeUoumg8bdvQw" name="AfficherCartesAchetables" receiveEvent="_5286YLUQEeeUoumg8bdvQw" sendEvent="_528TUbUQEeeUoumg8bdvQw" connector="_53HScLUQEeeUoumg8bdvQw"/>
+        <message xmi:id="_53GrYLUQEeeUoumg8bdvQw" name="AcheterCarte" receiveEvent="_526eILUQEeeUoumg8bdvQw" sendEvent="_5253ELUQEeeUoumg8bdvQw" connector="_53HSc7UQEeeUoumg8bdvQw">
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_53GrYbUQEeeUoumg8bdvQw">
             <eAnnotations xmi:id="_53GrYrUQEeeUoumg8bdvQw" source="Parameter" references="_qFqEILJYEeenUo0BovABMw"/>
           </argument>
         </message>
-        <message xmi:id="_KCy24LUREeeUoumg8bdvQw" name="Cancel" messageSort="deleteMessage" receiveEvent="_KC0FALUREeeUoumg8bdvQw" sendEvent="_KCzd8LUREeeUoumg8bdvQw" connector="_53HSc7UQEeeUoumg8bdvQw"/>
+        <message xmi:id="_auM6cLWkEeeitZnrLxbwDQ" name="Demander Carte A Acheter" receiveEvent="_auOIkLWkEeeitZnrLxbwDQ" sendEvent="_auNhgLWkEeeitZnrLxbwDQ" connector="_53HSc7UQEeeUoumg8bdvQw"/>
+        <message xmi:id="_auQk0LWkEeeitZnrLxbwDQ" name="Annuler" messageSort="reply" receiveEvent="_auQk0bWkEeeitZnrLxbwDQ" sendEvent="_auP9wLWkEeeitZnrLxbwDQ" connector="_53HSc7UQEeeUoumg8bdvQw"/>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_bgqb8LUREeeUoumg8bdvQw" name="E2-Annulation">
         <eAnnotations xmi:id="_bgrqELUREeeUoumg8bdvQw" source="uml2.diagrams">
@@ -2272,24 +2297,24 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ptDCIbUREeeUoumg8bdvQw" covered="_iw5vYLUREeeUoumg8bdvQw" message="_ptK987UREeeUoumg8bdvQw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ptIhsbUREeeUoumg8bdvQw" covered="_iw5vYLUREeeUoumg8bdvQw" event="_sK3IALJWEeenUo0BovABMw" message="_ptMMELUREeeUoumg8bdvQw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ptJIwLUREeeUoumg8bdvQw" covered="_ixBrMLUREeeUoumg8bdvQw" event="_sK3vELJWEeenUo0BovABMw" message="_ptMMELUREeeUoumg8bdvQw"/>
-        <message xmi:id="_ptJIwbUREeeUoumg8bdvQw" name="GetCardPrice" messageSort="reply" receiveEvent="_ps_-0bUREeeUoumg8bdvQw" sendEvent="_ps_-0LUREeeUoumg8bdvQw" connector="_ptMzILUREeeUoumg8bdvQw"/>
-        <message xmi:id="_ptJv0LUREeeUoumg8bdvQw" name="Prompt for confirmation" receiveEvent="_ptCbEbUREeeUoumg8bdvQw" sendEvent="_ptCbELUREeeUoumg8bdvQw" connector="_ptNaMLUREeeUoumg8bdvQw"/>
-        <message xmi:id="_ptJv0bUREeeUoumg8bdvQw" name="buyCard" receiveEvent="_ps54MbUREeeUoumg8bdvQw" sendEvent="_ps54MLUREeeUoumg8bdvQw" connector="_ptNaMLUREeeUoumg8bdvQw">
+        <message xmi:id="_ptJIwbUREeeUoumg8bdvQw" name="GetPrixCarte" messageSort="reply" receiveEvent="_ps_-0bUREeeUoumg8bdvQw" sendEvent="_ps_-0LUREeeUoumg8bdvQw" connector="_ptMzILUREeeUoumg8bdvQw"/>
+        <message xmi:id="_ptJv0LUREeeUoumg8bdvQw" name="Demander Confirmation" receiveEvent="_ptCbEbUREeeUoumg8bdvQw" sendEvent="_ptCbELUREeeUoumg8bdvQw" connector="_ptNaMLUREeeUoumg8bdvQw"/>
+        <message xmi:id="_ptJv0bUREeeUoumg8bdvQw" name="AcheterCarte" receiveEvent="_ps54MbUREeeUoumg8bdvQw" sendEvent="_ps54MLUREeeUoumg8bdvQw" connector="_ptNaMLUREeeUoumg8bdvQw">
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_ptJv0rUREeeUoumg8bdvQw">
             <eAnnotations xmi:id="_ptJv07UREeeUoumg8bdvQw" source="Parameter" references="_qFqEILJYEeenUo0BovABMw"/>
           </argument>
         </message>
-        <message xmi:id="_ptJv1LUREeeUoumg8bdvQw" name="checkBankAccount" receiveEvent="_ps7GUbUREeeUoumg8bdvQw" sendEvent="_ps7GULUREeeUoumg8bdvQw" connector="_ptMzILUREeeUoumg8bdvQw"/>
-        <message xmi:id="_ptKW4LUREeeUoumg8bdvQw" name="GetCardPrice" receiveEvent="_ps_XwLUREeeUoumg8bdvQw" sendEvent="_ps-wsLUREeeUoumg8bdvQw" connector="_ptMzILUREeeUoumg8bdvQw"/>
-        <message xmi:id="_ptKW4rUREeeUoumg8bdvQw" name="Prompt for card to buy" messageSort="reply" receiveEvent="_ps-Jo7UREeeUoumg8bdvQw" sendEvent="_ps-JorUREeeUoumg8bdvQw" connector="_ptNaMLUREeeUoumg8bdvQw"/>
-        <message xmi:id="_ptK98bUREeeUoumg8bdvQw" name="DisplayBuyableCards" messageSort="reply" receiveEvent="_ps9ikLUREeeUoumg8bdvQw" sendEvent="_ps87gbUREeeUoumg8bdvQw" connector="_ptMzILUREeeUoumg8bdvQw"/>
-        <message xmi:id="_ptK98rUREeeUoumg8bdvQw" name="DisplayBuyableCards" receiveEvent="_ps8UcbUREeeUoumg8bdvQw" sendEvent="_ps8UcLUREeeUoumg8bdvQw" connector="_ptMzILUREeeUoumg8bdvQw"/>
-        <message xmi:id="_ptK987UREeeUoumg8bdvQw" name="Refuse" messageSort="reply" receiveEvent="_ptDCIbUREeeUoumg8bdvQw" sendEvent="_ptDCILUREeeUoumg8bdvQw" connector="_ptNaMLUREeeUoumg8bdvQw"/>
-        <message xmi:id="_ptLlAbUREeeUoumg8bdvQw" name="checkBankAccount" messageSort="reply" receiveEvent="_ps7tYbUREeeUoumg8bdvQw" sendEvent="_ps7tYLUREeeUoumg8bdvQw" connector="_ptMzILUREeeUoumg8bdvQw"/>
-        <message xmi:id="_ptLlA7UREeeUoumg8bdvQw" name="Prompt for card to buy" receiveEvent="_ps-JoLUREeeUoumg8bdvQw" sendEvent="_ps9ikbUREeeUoumg8bdvQw" connector="_ptNaMLUREeeUoumg8bdvQw"/>
-        <message xmi:id="_ptMMELUREeeUoumg8bdvQw" name="buyCard" messageSort="reply" receiveEvent="_ptJIwLUREeeUoumg8bdvQw" sendEvent="_ptIhsbUREeeUoumg8bdvQw" connector="_ptNaMLUREeeUoumg8bdvQw"/>
-        <message xmi:id="_ptMMEbUREeeUoumg8bdvQw" name="CheckPlayerJewels" receiveEvent="_ptBM8LUREeeUoumg8bdvQw" sendEvent="_ptAl4LUREeeUoumg8bdvQw" connector="_ptMzILUREeeUoumg8bdvQw"/>
-        <message xmi:id="_ptMMErUREeeUoumg8bdvQw" name="CheckPlayerJewels" messageSort="reply" receiveEvent="_ptB0AbUREeeUoumg8bdvQw" sendEvent="_ptB0ALUREeeUoumg8bdvQw" connector="_ptMzILUREeeUoumg8bdvQw"/>
+        <message xmi:id="_ptJv1LUREeeUoumg8bdvQw" name="VerifierCompteBancaire" receiveEvent="_ps7GUbUREeeUoumg8bdvQw" sendEvent="_ps7GULUREeeUoumg8bdvQw" connector="_ptMzILUREeeUoumg8bdvQw"/>
+        <message xmi:id="_ptKW4LUREeeUoumg8bdvQw" name="GetPrixCarte" receiveEvent="_ps_XwLUREeeUoumg8bdvQw" sendEvent="_ps-wsLUREeeUoumg8bdvQw" connector="_ptMzILUREeeUoumg8bdvQw"/>
+        <message xmi:id="_ptKW4rUREeeUoumg8bdvQw" name="Choisir Carte" messageSort="reply" receiveEvent="_ps-Jo7UREeeUoumg8bdvQw" sendEvent="_ps-JorUREeeUoumg8bdvQw" connector="_ptNaMLUREeeUoumg8bdvQw"/>
+        <message xmi:id="_ptK98bUREeeUoumg8bdvQw" name="AfficherCartesAchetables" messageSort="reply" receiveEvent="_ps9ikLUREeeUoumg8bdvQw" sendEvent="_ps87gbUREeeUoumg8bdvQw" connector="_ptMzILUREeeUoumg8bdvQw"/>
+        <message xmi:id="_ptK98rUREeeUoumg8bdvQw" name="AfficherCartesAchetables" receiveEvent="_ps8UcbUREeeUoumg8bdvQw" sendEvent="_ps8UcLUREeeUoumg8bdvQw" connector="_ptMzILUREeeUoumg8bdvQw"/>
+        <message xmi:id="_ptK987UREeeUoumg8bdvQw" name="Annuler" messageSort="reply" receiveEvent="_ptDCIbUREeeUoumg8bdvQw" sendEvent="_ptDCILUREeeUoumg8bdvQw" connector="_ptNaMLUREeeUoumg8bdvQw"/>
+        <message xmi:id="_ptLlAbUREeeUoumg8bdvQw" name="VerifierCompteBancaire" messageSort="reply" receiveEvent="_ps7tYbUREeeUoumg8bdvQw" sendEvent="_ps7tYLUREeeUoumg8bdvQw" connector="_ptMzILUREeeUoumg8bdvQw"/>
+        <message xmi:id="_ptLlA7UREeeUoumg8bdvQw" name="Demander Carte A Acheter" receiveEvent="_ps-JoLUREeeUoumg8bdvQw" sendEvent="_ps9ikbUREeeUoumg8bdvQw" connector="_ptNaMLUREeeUoumg8bdvQw"/>
+        <message xmi:id="_ptMMELUREeeUoumg8bdvQw" name="AcheterCarte" messageSort="reply" receiveEvent="_ptJIwLUREeeUoumg8bdvQw" sendEvent="_ptIhsbUREeeUoumg8bdvQw" connector="_ptNaMLUREeeUoumg8bdvQw"/>
+        <message xmi:id="_ptMMEbUREeeUoumg8bdvQw" name="VerifierJoyaux" receiveEvent="_ptBM8LUREeeUoumg8bdvQw" sendEvent="_ptAl4LUREeeUoumg8bdvQw" connector="_ptMzILUREeeUoumg8bdvQw"/>
+        <message xmi:id="_ptMMErUREeeUoumg8bdvQw" name="VerifierJoyaux" messageSort="reply" receiveEvent="_ptB0AbUREeeUoumg8bdvQw" sendEvent="_ptB0ALUREeeUoumg8bdvQw" connector="_ptMzILUREeeUoumg8bdvQw"/>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_aBwT4LWTEeepMqW1BkCAOA" name="A2 -Repeat">
         <eAnnotations xmi:id="_aBwT4bWTEeepMqW1BkCAOA" source="uml2.diagrams">
@@ -2568,7 +2593,7 @@
           </contents>
         </eAnnotations>
         <ownedComment xmi:id="_pUxK8LWTEeepMqW1BkCAOA" annotatedElement="_aBwUs7WTEeepMqW1BkCAOA">
-          <body>&lt;p>Go back to NC1.2&lt;/p></body>
+          <body>&lt;p>Retourner a NC1.2&lt;/p></body>
         </ownedComment>
         <ownedConnector xmi:id="_aBwUqbWTEeepMqW1BkCAOA">
           <end xmi:id="_aBwUqrWTEeepMqW1BkCAOA" role="_QeZoALJWEeenUo0BovABMw"/>
@@ -2630,30 +2655,30 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aBw7C7WTEeepMqW1BkCAOA" covered="_aBwUsLWTEeepMqW1BkCAOA" message="_aBw7I7WTEeepMqW1BkCAOA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aBw7DLWTEeepMqW1BkCAOA" covered="_aBwUsLWTEeepMqW1BkCAOA" event="_sK3IALJWEeenUo0BovABMw" message="_aBw7EbWTEeepMqW1BkCAOA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aBw7DbWTEeepMqW1BkCAOA" covered="_aBwUr7WTEeepMqW1BkCAOA" event="_sK3vELJWEeenUo0BovABMw" message="_aBw7EbWTEeepMqW1BkCAOA"/>
-        <message xmi:id="_aBw7DrWTEeepMqW1BkCAOA" name="buyCard" receiveEvent="_aBwUsrWTEeepMqW1BkCAOA" sendEvent="_aBwUsbWTEeepMqW1BkCAOA" connector="_aBwUqbWTEeepMqW1BkCAOA">
+        <message xmi:id="_aBw7DrWTEeepMqW1BkCAOA" name="AcheterCarte" receiveEvent="_aBwUsrWTEeepMqW1BkCAOA" sendEvent="_aBwUsbWTEeepMqW1BkCAOA" connector="_aBwUqbWTEeepMqW1BkCAOA">
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_aBw7D7WTEeepMqW1BkCAOA">
             <eAnnotations xmi:id="_aBw7ELWTEeepMqW1BkCAOA" source="Parameter" references="_qFqEILJYEeenUo0BovABMw"/>
           </argument>
         </message>
-        <message xmi:id="_aBw7EbWTEeepMqW1BkCAOA" name="buyCard" messageSort="reply" receiveEvent="_aBw7DbWTEeepMqW1BkCAOA" sendEvent="_aBw7DLWTEeepMqW1BkCAOA" connector="_aBwUqbWTEeepMqW1BkCAOA"/>
-        <message xmi:id="_aBw7ErWTEeepMqW1BkCAOA" name="DisplayBuyableCards" receiveEvent="_aBwUurWTEeepMqW1BkCAOA" sendEvent="_aBwUubWTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
-        <message xmi:id="_aBw7E7WTEeepMqW1BkCAOA" name="DisplayBuyableCards" messageSort="reply" receiveEvent="_aBwUvbWTEeepMqW1BkCAOA" sendEvent="_aBwUvLWTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
-        <message xmi:id="_aBw7FLWTEeepMqW1BkCAOA" name="Prompt for card to buy" receiveEvent="_aBwUv7WTEeepMqW1BkCAOA" sendEvent="_aBwUvrWTEeepMqW1BkCAOA" connector="_aBwUqbWTEeepMqW1BkCAOA"/>
-        <message xmi:id="_aBw7FbWTEeepMqW1BkCAOA" name="Prompt for card to buy" messageSort="reply" receiveEvent="_aBwUwrWTEeepMqW1BkCAOA" sendEvent="_aBwUwbWTEeepMqW1BkCAOA" connector="_aBwUqbWTEeepMqW1BkCAOA"/>
-        <message xmi:id="_aBw7FrWTEeepMqW1BkCAOA" name="GetCardPrice" receiveEvent="_aBwUxLWTEeepMqW1BkCAOA" sendEvent="_aBwUw7WTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
-        <message xmi:id="_aBw7F7WTEeepMqW1BkCAOA" name="GetCardPrice" messageSort="reply" receiveEvent="_aBw68rWTEeepMqW1BkCAOA" sendEvent="_aBw68bWTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
-        <message xmi:id="_aBw7GLWTEeepMqW1BkCAOA" name="CheckPlayerJewels" receiveEvent="_aBw69LWTEeepMqW1BkCAOA" sendEvent="_aBw687WTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
-        <message xmi:id="_aBw7GbWTEeepMqW1BkCAOA" name="CheckPlayerJewels" messageSort="reply" receiveEvent="_aBw697WTEeepMqW1BkCAOA" sendEvent="_aBw69rWTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
-        <message xmi:id="_aBw7GrWTEeepMqW1BkCAOA" name="Prompt for confirmation" receiveEvent="_aBw6-bWTEeepMqW1BkCAOA" sendEvent="_aBw6-LWTEeepMqW1BkCAOA" connector="_aBwUqbWTEeepMqW1BkCAOA"/>
-        <message xmi:id="_aBw7G7WTEeepMqW1BkCAOA" name="Accept" messageSort="reply" receiveEvent="_aBw6_LWTEeepMqW1BkCAOA" sendEvent="_aBw6-7WTEeepMqW1BkCAOA" connector="_aBwUqbWTEeepMqW1BkCAOA"/>
-        <message xmi:id="_aBw7HLWTEeepMqW1BkCAOA" name="checkBankAccount" receiveEvent="_aBwUtbWTEeepMqW1BkCAOA" sendEvent="_aBwUtLWTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
-        <message xmi:id="_aBw7HbWTEeepMqW1BkCAOA" name="checkBankAccount" messageSort="reply" receiveEvent="_aBwUuLWTEeepMqW1BkCAOA" sendEvent="_aBwUt7WTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
+        <message xmi:id="_aBw7EbWTEeepMqW1BkCAOA" name="AcheterCarte" messageSort="reply" receiveEvent="_aBw7DbWTEeepMqW1BkCAOA" sendEvent="_aBw7DLWTEeepMqW1BkCAOA" connector="_aBwUqbWTEeepMqW1BkCAOA"/>
+        <message xmi:id="_aBw7ErWTEeepMqW1BkCAOA" name="AfficherCartesAchetables" receiveEvent="_aBwUurWTEeepMqW1BkCAOA" sendEvent="_aBwUubWTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
+        <message xmi:id="_aBw7E7WTEeepMqW1BkCAOA" name="AfficherCartesAchetables" messageSort="reply" receiveEvent="_aBwUvbWTEeepMqW1BkCAOA" sendEvent="_aBwUvLWTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
+        <message xmi:id="_aBw7FLWTEeepMqW1BkCAOA" name="Demander Carte A Acheter" receiveEvent="_aBwUv7WTEeepMqW1BkCAOA" sendEvent="_aBwUvrWTEeepMqW1BkCAOA" connector="_aBwUqbWTEeepMqW1BkCAOA"/>
+        <message xmi:id="_aBw7FbWTEeepMqW1BkCAOA" name="Choisir Carte" messageSort="reply" receiveEvent="_aBwUwrWTEeepMqW1BkCAOA" sendEvent="_aBwUwbWTEeepMqW1BkCAOA" connector="_aBwUqbWTEeepMqW1BkCAOA"/>
+        <message xmi:id="_aBw7FrWTEeepMqW1BkCAOA" name="GetPrixCarte" receiveEvent="_aBwUxLWTEeepMqW1BkCAOA" sendEvent="_aBwUw7WTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
+        <message xmi:id="_aBw7F7WTEeepMqW1BkCAOA" name="GetPrixCarte" messageSort="reply" receiveEvent="_aBw68rWTEeepMqW1BkCAOA" sendEvent="_aBw68bWTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
+        <message xmi:id="_aBw7GLWTEeepMqW1BkCAOA" name="VerifierJoyaux" receiveEvent="_aBw69LWTEeepMqW1BkCAOA" sendEvent="_aBw687WTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
+        <message xmi:id="_aBw7GbWTEeepMqW1BkCAOA" name="VerifierJoyaux" messageSort="reply" receiveEvent="_aBw697WTEeepMqW1BkCAOA" sendEvent="_aBw69rWTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
+        <message xmi:id="_aBw7GrWTEeepMqW1BkCAOA" name="Demander confirmation" receiveEvent="_aBw6-bWTEeepMqW1BkCAOA" sendEvent="_aBw6-LWTEeepMqW1BkCAOA" connector="_aBwUqbWTEeepMqW1BkCAOA"/>
+        <message xmi:id="_aBw7G7WTEeepMqW1BkCAOA" name="Confirmer" messageSort="reply" receiveEvent="_aBw6_LWTEeepMqW1BkCAOA" sendEvent="_aBw6-7WTEeepMqW1BkCAOA" connector="_aBwUqbWTEeepMqW1BkCAOA"/>
+        <message xmi:id="_aBw7HLWTEeepMqW1BkCAOA" name="VerifierCompteBancaire" receiveEvent="_aBwUtbWTEeepMqW1BkCAOA" sendEvent="_aBwUtLWTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
+        <message xmi:id="_aBw7HbWTEeepMqW1BkCAOA" name="VerifierCompteBancaire" messageSort="reply" receiveEvent="_aBwUuLWTEeepMqW1BkCAOA" sendEvent="_aBwUt7WTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
         <message xmi:id="_aBw7HrWTEeepMqW1BkCAOA" name="RemoveFromCollection" receiveEvent="_aBw6_rWTEeepMqW1BkCAOA" sendEvent="_aBw6_bWTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
         <message xmi:id="_aBw7H7WTEeepMqW1BkCAOA" name="RemoveFromCollection" messageSort="reply" receiveEvent="_aBw7AbWTEeepMqW1BkCAOA" sendEvent="_aBw7ALWTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
-        <message xmi:id="_aBw7ILWTEeepMqW1BkCAOA" name="MakePlayerPay" receiveEvent="_aBw7A7WTEeepMqW1BkCAOA" sendEvent="_aBw7ArWTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
-        <message xmi:id="_aBw7IbWTEeepMqW1BkCAOA" name="MakePlayerPay" messageSort="reply" receiveEvent="_aBw7BrWTEeepMqW1BkCAOA" sendEvent="_aBw7BbWTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
-        <message xmi:id="_aBw7IrWTEeepMqW1BkCAOA" name="Do it again?" receiveEvent="_aBw7CLWTEeepMqW1BkCAOA" sendEvent="_aBw7B7WTEeepMqW1BkCAOA" connector="_aBwUqbWTEeepMqW1BkCAOA"/>
-        <message xmi:id="_aBw7I7WTEeepMqW1BkCAOA" name="Yes" messageSort="reply" receiveEvent="_aBw7C7WTEeepMqW1BkCAOA" sendEvent="_aBw7CrWTEeepMqW1BkCAOA" connector="_aBwUqbWTEeepMqW1BkCAOA"/>
+        <message xmi:id="_aBw7ILWTEeepMqW1BkCAOA" name="DebiterJoueur" receiveEvent="_aBw7A7WTEeepMqW1BkCAOA" sendEvent="_aBw7ArWTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
+        <message xmi:id="_aBw7IbWTEeepMqW1BkCAOA" name="DebiterJoueur" messageSort="reply" receiveEvent="_aBw7BrWTEeepMqW1BkCAOA" sendEvent="_aBw7BbWTEeepMqW1BkCAOA" connector="_aBwUrLWTEeepMqW1BkCAOA"/>
+        <message xmi:id="_aBw7IrWTEeepMqW1BkCAOA" name="Acheter une autre?" receiveEvent="_aBw7CLWTEeepMqW1BkCAOA" sendEvent="_aBw7B7WTEeepMqW1BkCAOA" connector="_aBwUqbWTEeepMqW1BkCAOA"/>
+        <message xmi:id="_aBw7I7WTEeepMqW1BkCAOA" name="Oui" messageSort="reply" receiveEvent="_aBw7C7WTEeepMqW1BkCAOA" sendEvent="_aBw7CrWTEeepMqW1BkCAOA" connector="_aBwUqbWTEeepMqW1BkCAOA"/>
       </ownedBehavior>
       <ownedAttribute xmi:id="_8M9vILJVEeenUo0BovABMw" name="Joueur1" type="_3NvZYKdPEeeLZMDLDErqkw"/>
       <ownedAttribute xmi:id="_QeZoALJWEeenUo0BovABMw" name="SYS" type="_JDWywLJWEeenUo0BovABMw"/>
@@ -2676,8 +2701,6 @@
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_fRnLYLJbEeenUo0BovABMw" name="ReceiveOperationEvent9" operation="_fRl9QLJbEeenUo0BovABMw"/>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_kjPdELJbEeenUo0BovABMw" name="SendOperationEvent10" operation="_kjO2ALJbEeenUo0BovABMw"/>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_kjQEILJbEeenUo0BovABMw" name="ReceiveOperationEvent10" operation="_kjO2ALJbEeenUo0BovABMw"/>
-    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_MXonULUREeeUoumg8bdvQw" name="SendOperationEvent11" operation="_MXmyILUREeeUoumg8bdvQw"/>
-    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_MXonUbUREeeUoumg8bdvQw" name="ReceiveOperationEvent11" operation="_MXmyILUREeeUoumg8bdvQw"/>
     <packagedElement xmi:type="uml:Collaboration" xmi:id="_oABiYLWPEeepMqW1BkCAOA" name="Detruire Carte">
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_C4LlsLWSEeepMqW1BkCAOA" name="NominalCase">
         <eAnnotations xmi:id="_C5EWgLWSEeepMqW1BkCAOA" source="uml2.diagrams">
@@ -2917,22 +2940,22 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_yjy7wLWSEeepMqW1BkCAOA" covered="_Lk43ILWSEeepMqW1BkCAOA" message="_yjyUsLWSEeepMqW1BkCAOA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Rgw_sLWSEeepMqW1BkCAOA" covered="_Lk43ILWSEeepMqW1BkCAOA" event="_SVMtULWSEeepMqW1BkCAOA" message="_Rgw_sbWSEeepMqW1BkCAOA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RgxmwLWSEeepMqW1BkCAOA" covered="_I_x2ELWSEeepMqW1BkCAOA" event="_SVNUYLWSEeepMqW1BkCAOA" message="_Rgw_sbWSEeepMqW1BkCAOA"/>
-        <message xmi:id="_RgtVULWSEeepMqW1BkCAOA" name="destroyCard" receiveEvent="_RgvxkLWSEeepMqW1BkCAOA" sendEvent="_RgujcLWSEeepMqW1BkCAOA" connector="_RgxmwbWSEeepMqW1BkCAOA"/>
-        <message xmi:id="_Rgw_sbWSEeepMqW1BkCAOA" name="destroyCard" messageSort="reply" receiveEvent="_RgxmwLWSEeepMqW1BkCAOA" sendEvent="_Rgw_sLWSEeepMqW1BkCAOA" connector="_RgxmwbWSEeepMqW1BkCAOA"/>
-        <message xmi:id="_UPcMcLWSEeepMqW1BkCAOA" name="DisplayDoubleCards" receiveEvent="_UPdakbWSEeepMqW1BkCAOA" sendEvent="_UPdakLWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
-        <message xmi:id="_UPeosLWSEeepMqW1BkCAOA" name="DisplayDoubleCards" messageSort="reply" receiveEvent="_UPeosbWSEeepMqW1BkCAOA" sendEvent="_UPeBobWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
-        <message xmi:id="_btiVsLWSEeepMqW1BkCAOA" name="Prompt for card to destroy" receiveEvent="_btjj0LWSEeepMqW1BkCAOA" sendEvent="_bti8wLWSEeepMqW1BkCAOA" connector="_RgxmwbWSEeepMqW1BkCAOA"/>
-        <message xmi:id="_btlZAbWSEeepMqW1BkCAOA" name="Prompt for card to destroy" messageSort="reply" receiveEvent="_btlZArWSEeepMqW1BkCAOA" sendEvent="_btlZALWSEeepMqW1BkCAOA" connector="_RgxmwbWSEeepMqW1BkCAOA"/>
-        <message xmi:id="_itlRALWSEeepMqW1BkCAOA" name="GetCardPrice" receiveEvent="_itnGMLWSEeepMqW1BkCAOA" sendEvent="_itmfILWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
-        <message xmi:id="_itntQbWSEeepMqW1BkCAOA" name="GetCardPrice" messageSort="reply" receiveEvent="_itoUULWSEeepMqW1BkCAOA" sendEvent="_itntQLWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
-        <message xmi:id="_mNgUgLWSEeepMqW1BkCAOA" name="Prompt for confirmation" receiveEvent="_mNg7kbWSEeepMqW1BkCAOA" sendEvent="_mNg7kLWSEeepMqW1BkCAOA" connector="_RgxmwbWSEeepMqW1BkCAOA"/>
-        <message xmi:id="_mNiJsbWSEeepMqW1BkCAOA" name="Prompt for confirmation" messageSort="reply" receiveEvent="_mNiwwLWSEeepMqW1BkCAOA" sendEvent="_mNiJsLWSEeepMqW1BkCAOA" connector="_RgxmwbWSEeepMqW1BkCAOA"/>
-        <message xmi:id="_rYoVkLWSEeepMqW1BkCAOA" name="RemoveFromCollection" receiveEvent="_rYo8oLWSEeepMqW1BkCAOA" sendEvent="_rYoVkbWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
-        <message xmi:id="_rYqKwLWSEeepMqW1BkCAOA" name="RemoveFromCollection" messageSort="reply" receiveEvent="_rYqKwbWSEeepMqW1BkCAOA" sendEvent="_rYpjsbWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
-        <message xmi:id="_uLSqcLWSEeepMqW1BkCAOA" name="payPlayer" receiveEvent="_uLUfoLWSEeepMqW1BkCAOA" sendEvent="_uLT4kLWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
-        <message xmi:id="_uLXi8bWSEeepMqW1BkCAOA" name="payPlayer" messageSort="reply" receiveEvent="_uLYxELWSEeepMqW1BkCAOA" sendEvent="_uLXi8LWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
-        <message xmi:id="_yjvRYLWSEeepMqW1BkCAOA" name="Do it again?" receiveEvent="_yjwfgLWSEeepMqW1BkCAOA" sendEvent="_yjv4cLWSEeepMqW1BkCAOA" connector="_RgxmwbWSEeepMqW1BkCAOA"/>
-        <message xmi:id="_yjyUsLWSEeepMqW1BkCAOA" name="Do it again?" messageSort="reply" receiveEvent="_yjy7wLWSEeepMqW1BkCAOA" sendEvent="_yjxtoLWSEeepMqW1BkCAOA" connector="_RgxmwbWSEeepMqW1BkCAOA"/>
+        <message xmi:id="_RgtVULWSEeepMqW1BkCAOA" name="DetruireCarte" receiveEvent="_RgvxkLWSEeepMqW1BkCAOA" sendEvent="_RgujcLWSEeepMqW1BkCAOA" connector="_RgxmwbWSEeepMqW1BkCAOA"/>
+        <message xmi:id="_Rgw_sbWSEeepMqW1BkCAOA" name="DetruireCarte" messageSort="reply" receiveEvent="_RgxmwLWSEeepMqW1BkCAOA" sendEvent="_Rgw_sLWSEeepMqW1BkCAOA" connector="_RgxmwbWSEeepMqW1BkCAOA"/>
+        <message xmi:id="_UPcMcLWSEeepMqW1BkCAOA" name="AfficherCartesDoubles" receiveEvent="_UPdakbWSEeepMqW1BkCAOA" sendEvent="_UPdakLWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
+        <message xmi:id="_UPeosLWSEeepMqW1BkCAOA" name="AfficherCartesDoubles" messageSort="reply" receiveEvent="_UPeosbWSEeepMqW1BkCAOA" sendEvent="_UPeBobWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
+        <message xmi:id="_btiVsLWSEeepMqW1BkCAOA" name="Demander Carte A Detruire" receiveEvent="_btjj0LWSEeepMqW1BkCAOA" sendEvent="_bti8wLWSEeepMqW1BkCAOA" connector="_RgxmwbWSEeepMqW1BkCAOA"/>
+        <message xmi:id="_btlZAbWSEeepMqW1BkCAOA" name="Choisir Carte" messageSort="reply" receiveEvent="_btlZArWSEeepMqW1BkCAOA" sendEvent="_btlZALWSEeepMqW1BkCAOA" connector="_RgxmwbWSEeepMqW1BkCAOA"/>
+        <message xmi:id="_itlRALWSEeepMqW1BkCAOA" name="GetPrixCarte" receiveEvent="_itnGMLWSEeepMqW1BkCAOA" sendEvent="_itmfILWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
+        <message xmi:id="_itntQbWSEeepMqW1BkCAOA" name="GetPrixCarte" messageSort="reply" receiveEvent="_itoUULWSEeepMqW1BkCAOA" sendEvent="_itntQLWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
+        <message xmi:id="_mNgUgLWSEeepMqW1BkCAOA" name="Demander Confirmation" receiveEvent="_mNg7kbWSEeepMqW1BkCAOA" sendEvent="_mNg7kLWSEeepMqW1BkCAOA" connector="_RgxmwbWSEeepMqW1BkCAOA"/>
+        <message xmi:id="_mNiJsbWSEeepMqW1BkCAOA" name="Confirmer" messageSort="reply" receiveEvent="_mNiwwLWSEeepMqW1BkCAOA" sendEvent="_mNiJsLWSEeepMqW1BkCAOA" connector="_RgxmwbWSEeepMqW1BkCAOA"/>
+        <message xmi:id="_rYoVkLWSEeepMqW1BkCAOA" name="RetirerDeCollection" receiveEvent="_rYo8oLWSEeepMqW1BkCAOA" sendEvent="_rYoVkbWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
+        <message xmi:id="_rYqKwLWSEeepMqW1BkCAOA" name="RetirerDeCollection" messageSort="reply" receiveEvent="_rYqKwbWSEeepMqW1BkCAOA" sendEvent="_rYpjsbWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
+        <message xmi:id="_uLSqcLWSEeepMqW1BkCAOA" name="CrediterJoueur" receiveEvent="_uLUfoLWSEeepMqW1BkCAOA" sendEvent="_uLT4kLWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
+        <message xmi:id="_uLXi8bWSEeepMqW1BkCAOA" name="CrediterJoueur" messageSort="reply" receiveEvent="_uLYxELWSEeepMqW1BkCAOA" sendEvent="_uLXi8LWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
+        <message xmi:id="_yjvRYLWSEeepMqW1BkCAOA" name="Detruire une autre?" receiveEvent="_yjwfgLWSEeepMqW1BkCAOA" sendEvent="_yjv4cLWSEeepMqW1BkCAOA" connector="_RgxmwbWSEeepMqW1BkCAOA"/>
+        <message xmi:id="_yjyUsLWSEeepMqW1BkCAOA" name="Non" messageSort="reply" receiveEvent="_yjy7wLWSEeepMqW1BkCAOA" sendEvent="_yjxtoLWSEeepMqW1BkCAOA" connector="_RgxmwbWSEeepMqW1BkCAOA"/>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_MM9R0LWUEeepMqW1BkCAOA" name="A1-Repeat">
         <eAnnotations xmi:id="_MM9R0bWUEeepMqW1BkCAOA" source="uml2.diagrams">
@@ -3165,7 +3188,7 @@
           </contents>
         </eAnnotations>
         <ownedComment xmi:id="_RxOLoLWUEeepMqW1BkCAOA" annotatedElement="_MM9SbbWUEeepMqW1BkCAOA">
-          <body>&lt;p>Go back to NC1.2&lt;/p></body>
+          <body>&lt;p>Retourner a NC1.2&lt;/p></body>
         </ownedComment>
         <ownedConnector xmi:id="_MM9SY7WUEeepMqW1BkCAOA">
           <end xmi:id="_MM9SZLWUEeepMqW1BkCAOA" role="_Lk5eMLWSEeepMqW1BkCAOA"/>
@@ -3217,22 +3240,22 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MM9SkLWUEeepMqW1BkCAOA" covered="_MM9SarWUEeepMqW1BkCAOA" message="_MM947LWUEeepMqW1BkCAOA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MM9SkbWUEeepMqW1BkCAOA" covered="_MM9SarWUEeepMqW1BkCAOA" event="_SVMtULWSEeepMqW1BkCAOA" message="_MM9SlLWUEeepMqW1BkCAOA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MM9SkrWUEeepMqW1BkCAOA" covered="_MM9SabWUEeepMqW1BkCAOA" event="_SVNUYLWSEeepMqW1BkCAOA" message="_MM9SlLWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_MM9Sk7WUEeepMqW1BkCAOA" name="destroyCard" receiveEvent="_MM9SbLWUEeepMqW1BkCAOA" sendEvent="_MM9Sa7WUEeepMqW1BkCAOA" connector="_MM9SY7WUEeepMqW1BkCAOA"/>
-        <message xmi:id="_MM9SlLWUEeepMqW1BkCAOA" name="destroyCard" messageSort="reply" receiveEvent="_MM9SkrWUEeepMqW1BkCAOA" sendEvent="_MM9SkbWUEeepMqW1BkCAOA" connector="_MM9SY7WUEeepMqW1BkCAOA"/>
-        <message xmi:id="_MM9SlbWUEeepMqW1BkCAOA" name="DisplayDoubleCards" receiveEvent="_MM9Sb7WUEeepMqW1BkCAOA" sendEvent="_MM9SbrWUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_MM944LWUEeepMqW1BkCAOA" name="DisplayDoubleCards" messageSort="reply" receiveEvent="_MM9ScrWUEeepMqW1BkCAOA" sendEvent="_MM9ScbWUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_MM944bWUEeepMqW1BkCAOA" name="Prompt for card to destroy" receiveEvent="_MM9SdLWUEeepMqW1BkCAOA" sendEvent="_MM9Sc7WUEeepMqW1BkCAOA" connector="_MM9SY7WUEeepMqW1BkCAOA"/>
-        <message xmi:id="_MM944rWUEeepMqW1BkCAOA" name="Prompt for card to destroy" messageSort="reply" receiveEvent="_MM9Sd7WUEeepMqW1BkCAOA" sendEvent="_MM9SdrWUEeepMqW1BkCAOA" connector="_MM9SY7WUEeepMqW1BkCAOA"/>
-        <message xmi:id="_MM9447WUEeepMqW1BkCAOA" name="GetCardPrice" receiveEvent="_MM9SebWUEeepMqW1BkCAOA" sendEvent="_MM9SeLWUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_MM945LWUEeepMqW1BkCAOA" name="GetCardPrice" messageSort="reply" receiveEvent="_MM9SfLWUEeepMqW1BkCAOA" sendEvent="_MM9Se7WUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_MM945bWUEeepMqW1BkCAOA" name="Prompt for confirmation" receiveEvent="_MM9SfrWUEeepMqW1BkCAOA" sendEvent="_MM9SfbWUEeepMqW1BkCAOA" connector="_MM9SY7WUEeepMqW1BkCAOA"/>
-        <message xmi:id="_MM945rWUEeepMqW1BkCAOA" name="Prompt for confirmation" messageSort="reply" receiveEvent="_MM9SgbWUEeepMqW1BkCAOA" sendEvent="_MM9SgLWUEeepMqW1BkCAOA" connector="_MM9SY7WUEeepMqW1BkCAOA"/>
-        <message xmi:id="_MM9457WUEeepMqW1BkCAOA" name="RemoveFromCollection" receiveEvent="_MM9Sg7WUEeepMqW1BkCAOA" sendEvent="_MM9SgrWUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_MM946LWUEeepMqW1BkCAOA" name="RemoveFromCollection" messageSort="reply" receiveEvent="_MM9ShrWUEeepMqW1BkCAOA" sendEvent="_MM9ShbWUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_MM946bWUEeepMqW1BkCAOA" name="payPlayer" receiveEvent="_MM9SiLWUEeepMqW1BkCAOA" sendEvent="_MM9Sh7WUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_MM946rWUEeepMqW1BkCAOA" name="payPlayer" messageSort="reply" receiveEvent="_MM9Si7WUEeepMqW1BkCAOA" sendEvent="_MM9SirWUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_MM9467WUEeepMqW1BkCAOA" name="Do it again?" receiveEvent="_MM9SjbWUEeepMqW1BkCAOA" sendEvent="_MM9SjLWUEeepMqW1BkCAOA" connector="_MM9SY7WUEeepMqW1BkCAOA"/>
-        <message xmi:id="_MM947LWUEeepMqW1BkCAOA" name="Do it again?" messageSort="reply" receiveEvent="_MM9SkLWUEeepMqW1BkCAOA" sendEvent="_MM9Sj7WUEeepMqW1BkCAOA" connector="_MM9SY7WUEeepMqW1BkCAOA"/>
+        <message xmi:id="_MM9Sk7WUEeepMqW1BkCAOA" name="DetruireCarte" receiveEvent="_MM9SbLWUEeepMqW1BkCAOA" sendEvent="_MM9Sa7WUEeepMqW1BkCAOA" connector="_MM9SY7WUEeepMqW1BkCAOA"/>
+        <message xmi:id="_MM9SlLWUEeepMqW1BkCAOA" name="DetruireCarte" messageSort="reply" receiveEvent="_MM9SkrWUEeepMqW1BkCAOA" sendEvent="_MM9SkbWUEeepMqW1BkCAOA" connector="_MM9SY7WUEeepMqW1BkCAOA"/>
+        <message xmi:id="_MM9SlbWUEeepMqW1BkCAOA" name="AfficherCartesDoubles" receiveEvent="_MM9Sb7WUEeepMqW1BkCAOA" sendEvent="_MM9SbrWUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_MM944LWUEeepMqW1BkCAOA" name="AfficherCartesDoubles" messageSort="reply" receiveEvent="_MM9ScrWUEeepMqW1BkCAOA" sendEvent="_MM9ScbWUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_MM944bWUEeepMqW1BkCAOA" name="Demander Carte A Detruire" receiveEvent="_MM9SdLWUEeepMqW1BkCAOA" sendEvent="_MM9Sc7WUEeepMqW1BkCAOA" connector="_MM9SY7WUEeepMqW1BkCAOA"/>
+        <message xmi:id="_MM944rWUEeepMqW1BkCAOA" name="Choisir Carte" messageSort="reply" receiveEvent="_MM9Sd7WUEeepMqW1BkCAOA" sendEvent="_MM9SdrWUEeepMqW1BkCAOA" connector="_MM9SY7WUEeepMqW1BkCAOA"/>
+        <message xmi:id="_MM9447WUEeepMqW1BkCAOA" name="GetPrixCarte" receiveEvent="_MM9SebWUEeepMqW1BkCAOA" sendEvent="_MM9SeLWUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_MM945LWUEeepMqW1BkCAOA" name="GetPrixCarte" messageSort="reply" receiveEvent="_MM9SfLWUEeepMqW1BkCAOA" sendEvent="_MM9Se7WUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_MM945bWUEeepMqW1BkCAOA" name="Demander Confirmation" receiveEvent="_MM9SfrWUEeepMqW1BkCAOA" sendEvent="_MM9SfbWUEeepMqW1BkCAOA" connector="_MM9SY7WUEeepMqW1BkCAOA"/>
+        <message xmi:id="_MM945rWUEeepMqW1BkCAOA" name="Confirmer" messageSort="reply" receiveEvent="_MM9SgbWUEeepMqW1BkCAOA" sendEvent="_MM9SgLWUEeepMqW1BkCAOA" connector="_MM9SY7WUEeepMqW1BkCAOA"/>
+        <message xmi:id="_MM9457WUEeepMqW1BkCAOA" name="RetirerDeCollection" receiveEvent="_MM9Sg7WUEeepMqW1BkCAOA" sendEvent="_MM9SgrWUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_MM946LWUEeepMqW1BkCAOA" name="RetirerDeCollection" messageSort="reply" receiveEvent="_MM9ShrWUEeepMqW1BkCAOA" sendEvent="_MM9ShbWUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_MM946bWUEeepMqW1BkCAOA" name="CrediterJoueur" receiveEvent="_MM9SiLWUEeepMqW1BkCAOA" sendEvent="_MM9Sh7WUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_MM946rWUEeepMqW1BkCAOA" name="CrediterJoueur" messageSort="reply" receiveEvent="_MM9Si7WUEeepMqW1BkCAOA" sendEvent="_MM9SirWUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_MM9467WUEeepMqW1BkCAOA" name="Detruire une autre?" receiveEvent="_MM9SjbWUEeepMqW1BkCAOA" sendEvent="_MM9SjLWUEeepMqW1BkCAOA" connector="_MM9SY7WUEeepMqW1BkCAOA"/>
+        <message xmi:id="_MM947LWUEeepMqW1BkCAOA" name="Oui" messageSort="reply" receiveEvent="_MM9SkLWUEeepMqW1BkCAOA" sendEvent="_MM9Sj7WUEeepMqW1BkCAOA" connector="_MM9SY7WUEeepMqW1BkCAOA"/>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_aTV9sLWUEeepMqW1BkCAOA" name="E1-Annulation">
         <eAnnotations xmi:id="_aTXL0LWUEeepMqW1BkCAOA" source="uml2.diagrams">
@@ -3358,12 +3381,12 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tTnwsLWUEeepMqW1BkCAOA" covered="_hf5D8LWUEeepMqW1BkCAOA" message="_tTsCILWUEeepMqW1BkCAOA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tToXwLWUEeepMqW1BkCAOA" covered="_hf5D8LWUEeepMqW1BkCAOA" event="_SVMtULWSEeepMqW1BkCAOA" message="_tTrbEbWUEeepMqW1BkCAOA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tToXwbWUEeepMqW1BkCAOA" covered="_hgA_wLWUEeepMqW1BkCAOA" event="_SVNUYLWSEeepMqW1BkCAOA" message="_tTrbEbWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_tTq0ALWUEeepMqW1BkCAOA" name="DisplayDoubleCards" messageSort="reply" receiveEvent="_tTl7gLWUEeepMqW1BkCAOA" sendEvent="_tTktYLWUEeepMqW1BkCAOA" connector="_tTspMLWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_tTq0AbWUEeepMqW1BkCAOA" name="Prompt for card to destroy" receiveEvent="_tTmikLWUEeepMqW1BkCAOA" sendEvent="_tTl7gbWUEeepMqW1BkCAOA" connector="_tTtQQbWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_tTrbELWUEeepMqW1BkCAOA" name="DisplayDoubleCards" receiveEvent="_tTjfQLWUEeepMqW1BkCAOA" sendEvent="_tTi4MLWUEeepMqW1BkCAOA" connector="_tTspMLWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_tTrbEbWUEeepMqW1BkCAOA" name="destroyCard" messageSort="reply" receiveEvent="_tToXwbWUEeepMqW1BkCAOA" sendEvent="_tToXwLWUEeepMqW1BkCAOA" connector="_tTtQQbWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_tTrbErWUEeepMqW1BkCAOA" name="destroyCard" receiveEvent="_tTiRILWUEeepMqW1BkCAOA" sendEvent="_tThqELWUEeepMqW1BkCAOA" connector="_tTtQQbWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_tTsCILWUEeepMqW1BkCAOA" name="Cancel" messageSort="reply" receiveEvent="_tTnwsLWUEeepMqW1BkCAOA" sendEvent="_tTnJoLWUEeepMqW1BkCAOA" connector="_tTtQQbWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_tTq0ALWUEeepMqW1BkCAOA" name="AfficherCartesDoubles" messageSort="reply" receiveEvent="_tTl7gLWUEeepMqW1BkCAOA" sendEvent="_tTktYLWUEeepMqW1BkCAOA" connector="_tTspMLWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_tTq0AbWUEeepMqW1BkCAOA" name="Demander Carte A Detruire" receiveEvent="_tTmikLWUEeepMqW1BkCAOA" sendEvent="_tTl7gbWUEeepMqW1BkCAOA" connector="_tTtQQbWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_tTrbELWUEeepMqW1BkCAOA" name="AfficherCartesDoubles" receiveEvent="_tTjfQLWUEeepMqW1BkCAOA" sendEvent="_tTi4MLWUEeepMqW1BkCAOA" connector="_tTspMLWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_tTrbEbWUEeepMqW1BkCAOA" name="DetruireCarte" messageSort="reply" receiveEvent="_tToXwbWUEeepMqW1BkCAOA" sendEvent="_tToXwLWUEeepMqW1BkCAOA" connector="_tTtQQbWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_tTrbErWUEeepMqW1BkCAOA" name="DetruireCarte" receiveEvent="_tTiRILWUEeepMqW1BkCAOA" sendEvent="_tThqELWUEeepMqW1BkCAOA" connector="_tTtQQbWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_tTsCILWUEeepMqW1BkCAOA" name="Annuler" messageSort="reply" receiveEvent="_tTnwsLWUEeepMqW1BkCAOA" sendEvent="_tTnJoLWUEeepMqW1BkCAOA" connector="_tTtQQbWUEeepMqW1BkCAOA"/>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_0TJuoLWUEeepMqW1BkCAOA" name="E2-Annulation">
         <eAnnotations xmi:id="_0TJuobWUEeepMqW1BkCAOA" source="uml2.diagrams">
@@ -3538,16 +3561,16 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0TJvUbWUEeepMqW1BkCAOA" covered="_0TJvOrWUEeepMqW1BkCAOA" message="_0TKVxLWUEeepMqW1BkCAOA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0TKVubWUEeepMqW1BkCAOA" covered="_0TJvOrWUEeepMqW1BkCAOA" event="_SVMtULWSEeepMqW1BkCAOA" message="_0TKVvLWUEeepMqW1BkCAOA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0TKVurWUEeepMqW1BkCAOA" covered="_0TJvObWUEeepMqW1BkCAOA" event="_SVNUYLWSEeepMqW1BkCAOA" message="_0TKVvLWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_0TKVu7WUEeepMqW1BkCAOA" name="destroyCard" receiveEvent="_0TJvPLWUEeepMqW1BkCAOA" sendEvent="_0TJvO7WUEeepMqW1BkCAOA" connector="_0TJvM7WUEeepMqW1BkCAOA"/>
-        <message xmi:id="_0TKVvLWUEeepMqW1BkCAOA" name="destroyCard" messageSort="reply" receiveEvent="_0TKVurWUEeepMqW1BkCAOA" sendEvent="_0TKVubWUEeepMqW1BkCAOA" connector="_0TJvM7WUEeepMqW1BkCAOA"/>
-        <message xmi:id="_0TKVvbWUEeepMqW1BkCAOA" name="DisplayDoubleCards" receiveEvent="_0TJvP7WUEeepMqW1BkCAOA" sendEvent="_0TJvPrWUEeepMqW1BkCAOA" connector="_0TJvNrWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_0TKVvrWUEeepMqW1BkCAOA" name="DisplayDoubleCards" messageSort="reply" receiveEvent="_0TJvQrWUEeepMqW1BkCAOA" sendEvent="_0TJvQbWUEeepMqW1BkCAOA" connector="_0TJvNrWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_0TKVv7WUEeepMqW1BkCAOA" name="Prompt for card to destroy" receiveEvent="_0TJvRLWUEeepMqW1BkCAOA" sendEvent="_0TJvQ7WUEeepMqW1BkCAOA" connector="_0TJvM7WUEeepMqW1BkCAOA"/>
-        <message xmi:id="_0TKVwLWUEeepMqW1BkCAOA" name="Prompt for card to destroy" messageSort="reply" receiveEvent="_0TJvR7WUEeepMqW1BkCAOA" sendEvent="_0TJvRrWUEeepMqW1BkCAOA" connector="_0TJvM7WUEeepMqW1BkCAOA"/>
-        <message xmi:id="_0TKVwbWUEeepMqW1BkCAOA" name="GetCardPrice" receiveEvent="_0TJvSbWUEeepMqW1BkCAOA" sendEvent="_0TJvSLWUEeepMqW1BkCAOA" connector="_0TJvNrWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_0TKVwrWUEeepMqW1BkCAOA" name="GetCardPrice" messageSort="reply" receiveEvent="_0TJvTLWUEeepMqW1BkCAOA" sendEvent="_0TJvS7WUEeepMqW1BkCAOA" connector="_0TJvNrWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_0TKVw7WUEeepMqW1BkCAOA" name="Prompt for confirmation" receiveEvent="_0TJvTrWUEeepMqW1BkCAOA" sendEvent="_0TJvTbWUEeepMqW1BkCAOA" connector="_0TJvM7WUEeepMqW1BkCAOA"/>
-        <message xmi:id="_0TKVxLWUEeepMqW1BkCAOA" name="Cancel" messageSort="reply" receiveEvent="_0TJvUbWUEeepMqW1BkCAOA" sendEvent="_0TJvULWUEeepMqW1BkCAOA" connector="_0TJvM7WUEeepMqW1BkCAOA"/>
+        <message xmi:id="_0TKVu7WUEeepMqW1BkCAOA" name="DetruireCarte" receiveEvent="_0TJvPLWUEeepMqW1BkCAOA" sendEvent="_0TJvO7WUEeepMqW1BkCAOA" connector="_0TJvM7WUEeepMqW1BkCAOA"/>
+        <message xmi:id="_0TKVvLWUEeepMqW1BkCAOA" name="DetruireCarte" messageSort="reply" receiveEvent="_0TKVurWUEeepMqW1BkCAOA" sendEvent="_0TKVubWUEeepMqW1BkCAOA" connector="_0TJvM7WUEeepMqW1BkCAOA"/>
+        <message xmi:id="_0TKVvbWUEeepMqW1BkCAOA" name="AfficherCartesDoubles" receiveEvent="_0TJvP7WUEeepMqW1BkCAOA" sendEvent="_0TJvPrWUEeepMqW1BkCAOA" connector="_0TJvNrWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_0TKVvrWUEeepMqW1BkCAOA" name="AfficherCartesDoubles" messageSort="reply" receiveEvent="_0TJvQrWUEeepMqW1BkCAOA" sendEvent="_0TJvQbWUEeepMqW1BkCAOA" connector="_0TJvNrWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_0TKVv7WUEeepMqW1BkCAOA" name="Demander Carte A Detruire" receiveEvent="_0TJvRLWUEeepMqW1BkCAOA" sendEvent="_0TJvQ7WUEeepMqW1BkCAOA" connector="_0TJvM7WUEeepMqW1BkCAOA"/>
+        <message xmi:id="_0TKVwLWUEeepMqW1BkCAOA" name="Choisir Carte" messageSort="reply" receiveEvent="_0TJvR7WUEeepMqW1BkCAOA" sendEvent="_0TJvRrWUEeepMqW1BkCAOA" connector="_0TJvM7WUEeepMqW1BkCAOA"/>
+        <message xmi:id="_0TKVwbWUEeepMqW1BkCAOA" name="GetPrixCarte" receiveEvent="_0TJvSbWUEeepMqW1BkCAOA" sendEvent="_0TJvSLWUEeepMqW1BkCAOA" connector="_0TJvNrWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_0TKVwrWUEeepMqW1BkCAOA" name="GetPrixCarte" messageSort="reply" receiveEvent="_0TJvTLWUEeepMqW1BkCAOA" sendEvent="_0TJvS7WUEeepMqW1BkCAOA" connector="_0TJvNrWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_0TKVw7WUEeepMqW1BkCAOA" name="Demander Confirmation" receiveEvent="_0TJvTrWUEeepMqW1BkCAOA" sendEvent="_0TJvTbWUEeepMqW1BkCAOA" connector="_0TJvM7WUEeepMqW1BkCAOA"/>
+        <message xmi:id="_0TKVxLWUEeepMqW1BkCAOA" name="Annuler" messageSort="reply" receiveEvent="_0TJvUbWUEeepMqW1BkCAOA" sendEvent="_0TJvULWUEeepMqW1BkCAOA" connector="_0TJvM7WUEeepMqW1BkCAOA"/>
       </ownedBehavior>
       <ownedAttribute xmi:id="_I_ydILWSEeepMqW1BkCAOA" name="Joueur1" type="_3NvZYKdPEeeLZMDLDErqkw"/>
       <ownedAttribute xmi:id="_Lk5eMLWSEeepMqW1BkCAOA" name="SYS" type="_JDWywLJWEeenUo0BovABMw"/>
@@ -3595,49 +3618,46 @@
     <eAnnotations xmi:id="_MldAgLJWEeenUo0BovABMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <details xmi:id="_MldnkLJWEeenUo0BovABMw" key="System"/>
     </eAnnotations>
-    <ownedOperation xmi:id="_sKxBYLJWEeenUo0BovABMw" name="buyCard">
+    <ownedOperation xmi:id="_sKxBYLJWEeenUo0BovABMw" name="AcheterCarte">
       <ownedParameter xmi:id="_qFqEILJYEeenUo0BovABMw" name="joueur" type="_Hkt1kKdVEeeLZMDLDErqkw"/>
     </ownedOperation>
-    <ownedOperation xmi:id="_PzUOMLJXEeenUo0BovABMw" name="checkBankAccount">
+    <ownedOperation xmi:id="_PzUOMLJXEeenUo0BovABMw" name="VerifierCompteBancaire">
       <ownedParameter xmi:id="_VY4IgLJXEeenUo0BovABMw" name="joueur" type="_Hkt1kKdVEeeLZMDLDErqkw"/>
     </ownedOperation>
-    <ownedOperation xmi:id="_juhi8LJYEeenUo0BovABMw" name="DisplayBuyableCards">
+    <ownedOperation xmi:id="_juhi8LJYEeenUo0BovABMw" name="AfficherCartesAchetables">
       <ownedParameter xmi:id="_trydULJYEeenUo0BovABMw" name="joueur" type="_Hkt1kKdVEeeLZMDLDErqkw"/>
     </ownedOperation>
-    <ownedOperation xmi:id="_1xXdULJYEeenUo0BovABMw" name="SelectCardToBuy">
-      <ownedParameter xmi:id="_GR5KYLUMEeeUoumg8bdvQw" name="joueur" type="_Hkt1kKdVEeeLZMDLDErqkw"/>
-    </ownedOperation>
-    <ownedOperation xmi:id="_UGGnILJZEeenUo0BovABMw" name="GetCardPrice">
+    <ownedOperation xmi:id="_UGGnILJZEeenUo0BovABMw" name="GetPrixCarte">
       <ownedParameter xmi:id="_Q3VfELUMEeeUoumg8bdvQw" name="carte" type="_eNDRMKdREeeLZMDLDErqkw"/>
       <ownedParameter xmi:id="_1d7ogLUMEeeUoumg8bdvQw" name="price" direction="out">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
     </ownedOperation>
-    <ownedOperation xmi:id="_YEnrILJZEeenUo0BovABMw" name="CheckPlayerJewels">
+    <ownedOperation xmi:id="_YEnrILJZEeenUo0BovABMw" name="VerifierJoyaux">
       <ownedParameter xmi:id="_VK9QYLUMEeeUoumg8bdvQw" name="joueur" type="_Hkt1kKdVEeeLZMDLDErqkw"/>
     </ownedOperation>
-    <ownedOperation xmi:id="_fRl9QLJbEeenUo0BovABMw" name="AddToCollection">
+    <ownedOperation xmi:id="_fRl9QLJbEeenUo0BovABMw" name="AjouterACollection">
       <ownedParameter xmi:id="_dGLagLUMEeeUoumg8bdvQw" name="joueur" type="_Hkt1kKdVEeeLZMDLDErqkw"/>
       <ownedParameter xmi:id="_qkuqULUMEeeUoumg8bdvQw" name="carte" type="_eNDRMKdREeeLZMDLDErqkw"/>
     </ownedOperation>
-    <ownedOperation xmi:id="_kjO2ALJbEeenUo0BovABMw" name="MakePlayerPay">
+    <ownedOperation xmi:id="_kjO2ALJbEeenUo0BovABMw" name="DebiterJoueur">
       <ownedParameter xmi:id="_ebZhALUMEeeUoumg8bdvQw" name="joueur" type="_Hkt1kKdVEeeLZMDLDErqkw"/>
       <ownedParameter xmi:id="_uiL-YLUMEeeUoumg8bdvQw" name="price">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
     </ownedOperation>
-    <ownedOperation xmi:id="_MXmyILUREeeUoumg8bdvQw" name="Cancel"/>
-    <ownedOperation xmi:id="_MImdoLWREeepMqW1BkCAOA" name="DisplayDoubleCards">
+    <ownedOperation xmi:id="_MXmyILUREeeUoumg8bdvQw" name="Annuler"/>
+    <ownedOperation xmi:id="_MImdoLWREeepMqW1BkCAOA" name="AfficherCartesDoubles">
       <ownedParameter xmi:id="_PIumwLWREeepMqW1BkCAOA" name="joueur" type="_Hkt1kKdVEeeLZMDLDErqkw"/>
     </ownedOperation>
-    <ownedOperation xmi:id="_ZzCNULWREeepMqW1BkCAOA" name="destroyCard">
+    <ownedOperation xmi:id="_ZzCNULWREeepMqW1BkCAOA" name="DetruireCarte">
       <ownedParameter xmi:id="_cI8UwLWREeepMqW1BkCAOA" name="joueur" type="_Hkt1kKdVEeeLZMDLDErqkw"/>
     </ownedOperation>
-    <ownedOperation xmi:id="_mNpT4LWREeepMqW1BkCAOA" name="RemoveFromCollection">
+    <ownedOperation xmi:id="_mNpT4LWREeepMqW1BkCAOA" name="RetirerDeCollection">
       <ownedParameter xmi:id="_tYGIYLWREeepMqW1BkCAOA" name="joueur" type="_Hkt1kKdVEeeLZMDLDErqkw"/>
       <ownedParameter xmi:id="_tYGvcLWREeepMqW1BkCAOA" name="carte" type="_eNDRMKdREeeLZMDLDErqkw"/>
     </ownedOperation>
-    <ownedOperation xmi:id="_2olcULWREeepMqW1BkCAOA" name="payPlayer">
+    <ownedOperation xmi:id="_2olcULWREeepMqW1BkCAOA" name="CrediterJoueur">
       <ownedParameter xmi:id="_7SZgELWREeepMqW1BkCAOA" name="joueur" type="_Hkt1kKdVEeeLZMDLDErqkw"/>
       <ownedParameter xmi:id="_7SaHILWREeepMqW1BkCAOA" name="amount">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
