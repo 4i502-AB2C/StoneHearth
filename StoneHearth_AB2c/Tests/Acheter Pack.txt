@@ -1,16 +1,10 @@
 NOM : Acheter un pack
 
-Description : un joueur souhaite Acheter un pack
-
-Acteur : Joueur authentifié
-
-
-Précondition :
-
-Le joueur a rempli les info bancaire
+Contexte :un joueur authentifié souhaite acheter un pack, il a pas des droits a des packs, 
+les information banacaires sont valides.
 
 
-Séquencement nominal : 
+Sénario : 
 	1 - le joueur souhaite acheter des packs
 	2 - le système affiche le menu achat
 	3 - le joueur choisit le nombre des packs et confirme (il appuie OK)
@@ -18,9 +12,16 @@ Séquencement nominal :
 	5 - le joueur tape le code confirme (il appuie OK)
 	6 - le système valid l'achat et ajoute les packs dans le compte joueur.
 	
-Post Condition :
+Resultat :
 	- les packs sont enregistre
 
-Moyenne Verification :
-	- fonction list les packs de compte, assert non vide.
+Alternative :
+
+	
+
+Exception :
+	E1 : erreur système validation achat (API bancaire) 
+		- le système affiche l'erreur puis il retour au menu
+	E2 : le joueur annule l'achat
+		- le système retour au menu
 		  
