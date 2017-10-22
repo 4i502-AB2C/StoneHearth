@@ -34,10 +34,3 @@ Exception :
 	E2 : le payment est refuser
 	- en SN4: la transaction est annuler
 		- retour au menu
-	 
-		
-
-
-	
-				
-		  

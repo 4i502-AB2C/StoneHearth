@@ -52,6 +52,3 @@ Le rang de joueur change et devient égal à rang+1 ou rang-1.
 	E3:Annuler l'abandon:
 		1-En E2.3 le joueur annule l'abo=andon.
 		2-Retour à SN où il était avant de décider de s'abandonner.
-	
-		
-

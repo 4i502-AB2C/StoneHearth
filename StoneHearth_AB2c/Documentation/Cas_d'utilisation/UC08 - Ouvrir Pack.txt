@@ -2,20 +2,20 @@ NOM : ouvrir un pack
 
 Description : un joueur souhaite ouvrir un pack
 
-Acteur : Joueur authentifié
+Acteur : Joueur authentifiÃ©
 
 
-Précondition :
+PrÃ©condition :
 
 Le joueur a le droit d'ouvrir un pack
 
 
-Séquencement nominal : 
+SÃ©quencement nominal : 
 	1 - le joueur souhaite ouvrir un de ces pack
-	2 - le système génère 5 cartes aleatiores et les affiche
-	3 - le système affiche les 5 cartes
+	2 - le systÃ¨me gÃ©nÃ¨re 5 cartes aleatiores et les affiche
+	3 - le systÃ¨me affiche les 5 cartes
 	4 - le joueur regarde ces cartes et confirme (il appuie OK)
-	5 - le système ajoute les 5 cartes dans le banque des cartes du joueur
+	5 - le systÃ¨me ajoute les 5 cartes dans le banque des cartes du joueur
 	
 Post Condition :
 	- les cartes sont enregistre
@@ -25,7 +25,5 @@ Alternative :
 	
 
 Exception :
-	E1 : erreur système 
-		- le système affiche l'erreur puis il retour au menu
-	
-		  
+	E1 : erreur systÃ¨me 
+		- le systÃ¨me affiche l'erreur puis il retour au menu

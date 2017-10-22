@@ -2,21 +2,21 @@ NOM : Acheter un pack
 
 Description : un joueur souhaite Acheter un pack
 
-Acteur : Joueur authentifié
+Acteur : Joueur authentifiÃ©
 
 
-Précondition :
+PrÃ©condition :
 
 Le joueur a rempli les info bancaire
 
 
-Séquencement nominal : 
+SÃ©quencement nominal : 
 	1 - le joueur souhaite acheter des packs
-	2 - le système affiche le menu achat
+	2 - le systÃ¨me affiche le menu achat
 	3 - le joueur choisit le nombre des packs et confirme (il appuie OK)
-	4 - le système demande le code secret
+	4 - le systÃ¨me demande le code secret
 	5 - le joueur tape le code confirme (il appuie OK)
-	6 - le système valid l'achat et ajoute les packs dans le compte joueur.
+	6 - le systÃ¨me valid l'achat et ajoute les packs dans le compte joueur.
 	
 Post Condition :
 	- les packs sont enregistre
