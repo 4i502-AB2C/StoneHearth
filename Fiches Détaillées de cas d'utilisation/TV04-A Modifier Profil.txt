@@ -1,0 +1,14 @@
+TITRE : Modifier profil
+ID : TV04-A
+CONTEXTE : Un joueur connecté choisi de modifier son profil
+ENTRE : clique sur modifier profil
+
+SCÉNARIO :
+	1 - le joueur souhaite modifier son profil
+	2 - il saisit les nouvelles informations dans le formulaire
+	4 - il valide la modification
+RÉSULTAT ATTENDU :
+	Le système affiche la confirmation et les nouvelles informations du profil sont enregistrées
+MOYEN DE VITRIFICATION :
+	le visuel de confirmation
+	Les informations on changer

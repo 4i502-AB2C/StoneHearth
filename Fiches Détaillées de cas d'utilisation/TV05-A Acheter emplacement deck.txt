@@ -1,0 +1,14 @@
+TITRE : Acheter un emplacement de deck
+ID : TV05-A
+CONTEXTE : un joueur connecté a choisi d'acheter un emplacement de deck et a renseigner des coordonner bancaire valide
+ENTRE : clique sur achat d'un deck
+
+SCÉNARIO :
+	1 - le joueur souhaite acheter un emplacement de deck
+	2 - il confirme l'achat
+RÉSULTAT ATTENDU :
+	le système affiche la confirmation et l'emplacement de deck est bien ajouter
+MOYEN DE VITRIFICATION :
+	le visuel de confirmation
+	Le nombre d'emplacements disponible pour enregistrer un deck a augmenté
+	Le compte a bien été débité
