@@ -26,14 +26,9 @@ Alternative :
 		- le systeme suprime le deck
 	retour : SN4
 
-	A2 : le système ne valide pas le deck par manque de carte
+	A2 : le système ne valide pas le deck
 	- en SN6 : le systeme de valide pas le deck
 	retour : SN4
-
-	A3 : le systeme ne valide pas le deck, car certaines cartes ne son pas dna sla colection du joueur
-	- en SN6 : le système de valide pas le deck
-	retour : SN4
-	
 
 Exception :
 	E1 : le joueur veut annuler 
