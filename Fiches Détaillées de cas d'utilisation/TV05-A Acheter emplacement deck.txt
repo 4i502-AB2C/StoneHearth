@@ -1,4 +1,5 @@
 TITRE : Acheter un emplacement de deck
+ID : TV05-A
 CONTEXTE : un joueur connecté a choisi d'acheter un emplacement de deck et a renseigner des coordonner bancaire valide
 ENTRE : clique sur achat d'un deck
 
