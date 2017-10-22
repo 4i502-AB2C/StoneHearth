@@ -1,0 +1,19 @@
+Test de validation : 
+ID : TV03 
+
+Contexte : L'utilisateur a déja créé un profil (TV002) et est maintenant sur l'interface d'authentification.
+
+Entrée : 
+	Identifiant : "Ab2c"
+	Mot de Passe : "testILlundi"
+
+Scénario : 
+		1. L'utilisateur sélectionne la fonction "Se Connecter".
+		2. L'utilisateur entre son identifiant.
+		3. L'utilisateur entre son mot de passe (masqué).
+		4. Il confirme.		
+
+Résultat attendu : Le système affiche une confirmation, l'utilisateur peut accéder au système.
+
+Moyens de confirmation : Visuel pour la confirmation, log effectif sur le reste du système, modification du profil (TV04) accès au gestion des cartes et des decks (TV06).
+ 	 

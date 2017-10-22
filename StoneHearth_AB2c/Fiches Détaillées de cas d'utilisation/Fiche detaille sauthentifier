@@ -1,0 +1,39 @@
+UC03 : "S'authentifier"
+
+NOM : s'authentifier 
+
+Description : Un joueur déja inscrit souhaite s'authentifier sur le système
+
+Acteur : Joueur
+
+
+Précondition : Le joueur s'est déja inscrit auparavant sur le système.
+
+
+Séquencement nominal : 
+	1 - Le joueur clique sur "Se Connecter"
+	2 - le joueur entre ses identifiant et mot de passe et valide
+	3 - le système vérifie que l'identifiant de l'utilisateur existe
+	4 - le système vérifie que le mot de passe correspondant est correct
+	5 - le système autorise le joueur à accéder à l'interface de jeu et charge les données du joueur.
+	
+
+Post Condition :
+	- le joueur est identifié et a accès à ses données
+
+Alternative : //
+
+Exception :
+	E1 : le joueur veut annuler 
+	- en SN1 : le joueur veut annuler l'authentification
+		- le systeme retourne à l'écran d'accueil
+
+	E2 : le joueur n'est pas inscrit sur le système (le nom d'utilisateur n'existe pas)
+		- en SN3 : le systeme affiche un message d'erreur specifiant qu'un compte avec ce nom n'existe pas.
+		- appel du cas <<S'inscrire >>
+		- le système retourne en SN2
+
+	E2 : l'authentification est refusée (mot de passe incorrect)
+	- en SN4: la transaction est annulée
+		- retourne en SN2
+	 
