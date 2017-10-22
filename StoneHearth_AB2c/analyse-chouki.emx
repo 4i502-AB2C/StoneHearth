@@ -1629,7 +1629,7 @@
     </ownedOperation>
     <ownedOperation xmi:id="_IYmwYKzWEeesi-cbhd-FJA" name="Acheter Pack"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Collaboration" xmi:id="_ztdhkKzWEeesi-cbhd-FJA" name="StoneHearth">
+  <packagedElement xmi:type="uml:Collaboration" xmi:id="_ztdhkKzWEeesi-cbhd-FJA" name="ouvrir pack">
     <ownedBehavior xmi:type="uml:Interaction" xmi:id="_ztmEcKzWEeesi-cbhd-FJA" name="A">
       <eAnnotations xmi:id="_ztv1cKzWEeesi-cbhd-FJA" source="uml2.diagrams">
         <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_ztv1cazWEeesi-cbhd-FJA" type="Sequence" element="_ztmEcKzWEeesi-cbhd-FJA" name="Sequence Ouvrir Pack" measurementUnit="Himetric">
@@ -1790,30 +1790,30 @@
       </ownedConnector>
       <lifeline xmi:id="_KLn48LWkEee3etmEZ3eGVw" name="joueur" represents="_KLn48bWkEee3etmEZ3eGVw" coveredBy="_kz0DEbWlEee3etmEZ3eGVw _9W27ErWlEee3etmEZ3eGVw _9W27E7WlEee3etmEZ3eGVw _9W27FLWlEee3etmEZ3eGVw"/>
       <lifeline xmi:id="_e_48oLWlEee3etmEZ3eGVw" name="stoneHearth" represents="_e_48obWlEee3etmEZ3eGVw" coveredBy="_kz0DErWlEee3etmEZ3eGVw _kz0DE7WlEee3etmEZ3eGVw _kz9NALWlEee3etmEZ3eGVw _ommYMLWlEee3etmEZ3eGVw _ommYMbWlEee3etmEZ3eGVw _ommYMrWlEee3etmEZ3eGVw _ommYM7WlEee3etmEZ3eGVw _ommYNbWlEee3etmEZ3eGVw _xrzpMbWlEee3etmEZ3eGVw _xrzpMrWlEee3etmEZ3eGVw _xrzpM7WlEee3etmEZ3eGVw _xrzpNLWlEee3etmEZ3eGVw _xrzpNrWlEee3etmEZ3eGVw _4kBeMbWlEee3etmEZ3eGVw _4kBeMrWlEee3etmEZ3eGVw _4kBeM7WlEee3etmEZ3eGVw _4kBeNLWlEee3etmEZ3eGVw _4kBeNrWlEee3etmEZ3eGVw _9W27EbWlEee3etmEZ3eGVw _9W27FrWlEee3etmEZ3eGVw"/>
-      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kz0DEbWlEee3etmEZ3eGVw" covered="_KLn48LWkEee3etmEZ3eGVw" event="_mxkwQbWlEee3etmEZ3eGVw" message="_kz0DELWlEee3etmEZ3eGVw"/>
-      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kz0DErWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_mxkwQrWlEee3etmEZ3eGVw" message="_kz0DELWlEee3etmEZ3eGVw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kz0DEbWlEee3etmEZ3eGVw" covered="_KLn48LWkEee3etmEZ3eGVw" event="_WR1J8LdeEeeMQZHoSfgv0Q" message="_kz0DELWlEee3etmEZ3eGVw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kz0DErWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_WR2_ILdeEeeMQZHoSfgv0Q" message="_kz0DELWlEee3etmEZ3eGVw"/>
       <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_kz0DE7WlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" start="_kz0DErWlEee3etmEZ3eGVw" finish="_kz9NALWlEee3etmEZ3eGVw"/>
-      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ommYMLWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_uKqdsbWlEee3etmEZ3eGVw" message="_omdOQLWlEee3etmEZ3eGVw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ommYMLWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_VpILMLdeEeeMQZHoSfgv0Q" message="_omdOQLWlEee3etmEZ3eGVw"/>
       <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_kz9NALWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_kz0DFLWlEee3etmEZ3eGVw" execution="_kz0DE7WlEee3etmEZ3eGVw"/>
-      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ommYMbWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_uKqdsrWlEee3etmEZ3eGVw" message="_omdOQLWlEee3etmEZ3eGVw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ommYMbWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_VpIyQLdeEeeMQZHoSfgv0Q" message="_omdOQLWlEee3etmEZ3eGVw"/>
       <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_ommYMrWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" start="_ommYMbWlEee3etmEZ3eGVw" finish="_ommYM7WlEee3etmEZ3eGVw"/>
-      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ommYM7WlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_uKqdsbWlEee3etmEZ3eGVw" message="_ommYNLWlEee3etmEZ3eGVw"/>
-      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ommYNbWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_uKqdsrWlEee3etmEZ3eGVw" message="_ommYNLWlEee3etmEZ3eGVw"/>
-      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xrzpMbWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_0TW6QbWlEee3etmEZ3eGVw" message="_xrzpMLWlEee3etmEZ3eGVw"/>
-      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xrzpMrWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_0TW6QrWlEee3etmEZ3eGVw" message="_xrzpMLWlEee3etmEZ3eGVw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ommYM7WlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_VpILMLdeEeeMQZHoSfgv0Q" message="_ommYNLWlEee3etmEZ3eGVw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ommYNbWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_VpIyQLdeEeeMQZHoSfgv0Q" message="_ommYNLWlEee3etmEZ3eGVw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xrzpMbWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_VJIcgLdeEeeMQZHoSfgv0Q" message="_xrzpMLWlEee3etmEZ3eGVw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xrzpMrWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_VJJDkLdeEeeMQZHoSfgv0Q" message="_xrzpMLWlEee3etmEZ3eGVw"/>
       <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_xrzpM7WlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" start="_xrzpMrWlEee3etmEZ3eGVw" finish="_xrzpNLWlEee3etmEZ3eGVw"/>
-      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xrzpNLWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_0TW6QbWlEee3etmEZ3eGVw" message="_xrzpNbWlEee3etmEZ3eGVw"/>
-      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xrzpNrWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_0TW6QrWlEee3etmEZ3eGVw" message="_xrzpNbWlEee3etmEZ3eGVw"/>
-      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4kBeMbWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_7M8BMbWlEee3etmEZ3eGVw" message="_4kBeMLWlEee3etmEZ3eGVw"/>
-      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4kBeMrWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_7M8BMrWlEee3etmEZ3eGVw" message="_4kBeMLWlEee3etmEZ3eGVw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xrzpNLWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_VJIcgLdeEeeMQZHoSfgv0Q" message="_xrzpNbWlEee3etmEZ3eGVw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xrzpNrWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_VJJDkLdeEeeMQZHoSfgv0Q" message="_xrzpNbWlEee3etmEZ3eGVw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4kBeMbWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_Uibo4LdeEeeMQZHoSfgv0Q" message="_4kBeMLWlEee3etmEZ3eGVw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4kBeMrWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_UicP8LdeEeeMQZHoSfgv0Q" message="_4kBeMLWlEee3etmEZ3eGVw"/>
       <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_4kBeM7WlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" start="_4kBeMrWlEee3etmEZ3eGVw" finish="_4kBeNLWlEee3etmEZ3eGVw"/>
-      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4kBeNLWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_7M8BMbWlEee3etmEZ3eGVw" message="_4kBeNbWlEee3etmEZ3eGVw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4kBeNLWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_Uibo4LdeEeeMQZHoSfgv0Q" message="_4kBeNbWlEee3etmEZ3eGVw"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_9W27EbWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" message="_9W27ELWlEee3etmEZ3eGVw"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_9W27ErWlEee3etmEZ3eGVw" covered="_KLn48LWkEee3etmEZ3eGVw" message="_9W27ELWlEee3etmEZ3eGVw"/>
       <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_9W27E7WlEee3etmEZ3eGVw" covered="_KLn48LWkEee3etmEZ3eGVw" start="_9W27ErWlEee3etmEZ3eGVw" finish="_9W27FLWlEee3etmEZ3eGVw"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_9W27FLWlEee3etmEZ3eGVw" covered="_KLn48LWkEee3etmEZ3eGVw" message="_9W27FbWlEee3etmEZ3eGVw"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_9W27FrWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" message="_9W27FbWlEee3etmEZ3eGVw"/>
-      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4kBeNrWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_7M8BMrWlEee3etmEZ3eGVw" message="_4kBeNbWlEee3etmEZ3eGVw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4kBeNrWlEee3etmEZ3eGVw" covered="_e_48oLWlEee3etmEZ3eGVw" event="_UicP8LdeEeeMQZHoSfgv0Q" message="_4kBeNbWlEee3etmEZ3eGVw"/>
       <message xmi:id="_kz0DELWlEee3etmEZ3eGVw" name="Ouvrir Pack()" messageSort="asynchCall" receiveEvent="_kz0DErWlEee3etmEZ3eGVw" sendEvent="_kz0DEbWlEee3etmEZ3eGVw" connector="_kz9NAbWlEee3etmEZ3eGVw"/>
       <message xmi:id="_omdOQLWlEee3etmEZ3eGVw" name="Verifier Droits()" receiveEvent="_ommYMbWlEee3etmEZ3eGVw" sendEvent="_ommYMLWlEee3etmEZ3eGVw" connector="_ommYNrWlEee3etmEZ3eGVw"/>
       <message xmi:id="_ommYNLWlEee3etmEZ3eGVw" name="OK\Error" messageSort="reply" receiveEvent="_ommYNbWlEee3etmEZ3eGVw" sendEvent="_ommYM7WlEee3etmEZ3eGVw" connector="_ommYNrWlEee3etmEZ3eGVw"/>
@@ -1829,7 +1829,9 @@
     <ownedAttribute xmi:id="_lizxsbWSEee8nNnJgVhz5w" name="card Manager" type="_i4T6ULWSEee8nNnJgVhz5w"/>
     <ownedAttribute xmi:id="_qkquwbWiEee3etmEZ3eGVw" name="card Manager2" type="_i4T6ULWSEee8nNnJgVhz5w"/>
     <ownedAttribute xmi:id="_KLn48bWkEee3etmEZ3eGVw" name="joueur" type="_3NvZYKdPEeeLZMDLDErqkw"/>
-    <ownedAttribute xmi:id="_e_48obWlEee3etmEZ3eGVw" name="stoneHearth" type="_y42gkLWkEee3etmEZ3eGVw"/>
+    <ownedAttribute xmi:id="_e_48obWlEee3etmEZ3eGVw" name="stoneHearth">
+      <type xmi:type="uml:Class" href="analyse.emx#_yl35ELJVEeeUK9QVTWyEjA?analyse%20-%20merge/StoneHearth?"/>
+    </ownedAttribute>
     <ownedAttribute xmi:id="_KmC8YLWqEee3etmEZ3eGVw" name="Copy_1_stoneHearth" type="_y42gkLWkEee3etmEZ3eGVw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_wl-2cKzaEeesi-cbhd-FJA" name="Copy_1_Pack" clientDependency="_mts_RLJaEeeW0Mpb5K6wZg">
@@ -2085,6 +2087,30 @@
   <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_sRt64rWsEee3etmEZ3eGVw" name="ReceiveOperationEvent7" operation="_sRt64LWsEee3etmEZ3eGVw"/>
   <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_vNTiQbWsEee3etmEZ3eGVw" name="SendOperationEvent8" operation="_vNTiQLWsEee3etmEZ3eGVw"/>
   <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_vNTiQrWsEee3etmEZ3eGVw" name="ReceiveOperationEvent8" operation="_vNTiQLWsEee3etmEZ3eGVw"/>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_Uibo4LdeEeeMQZHoSfgv0Q" name="SendOperationEvent9">
+    <operation href="analyse.emx#_Pz7SYLdeEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/Ajouter%20Cartes()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_UicP8LdeEeeMQZHoSfgv0Q" name="ReceiveOperationEvent9">
+    <operation href="analyse.emx#_Pz7SYLdeEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/Ajouter%20Cartes()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_VJIcgLdeEeeMQZHoSfgv0Q" name="SendOperationEvent10">
+    <operation href="analyse.emx#_Pz75crdeEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/Generer%20Pack()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_VJJDkLdeEeeMQZHoSfgv0Q" name="ReceiveOperationEvent10">
+    <operation href="analyse.emx#_Pz75crdeEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/Generer%20Pack()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_VpILMLdeEeeMQZHoSfgv0Q" name="SendOperationEvent11">
+    <operation href="analyse.emx#_Pz75cbdeEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/Verifier%20Droits()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_VpIyQLdeEeeMQZHoSfgv0Q" name="ReceiveOperationEvent11">
+    <operation href="analyse.emx#_Pz75cbdeEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/Verifier%20Droits()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_WR1J8LdeEeeMQZHoSfgv0Q" name="SendOperationEvent12">
+    <operation href="analyse.emx#_Pz75cLdeEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/Ouvrir%20Pack()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_WR2_ILdeEeeMQZHoSfgv0Q" name="ReceiveOperationEvent12">
+    <operation href="analyse.emx#_Pz75cLdeEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/Ouvrir%20Pack()?"/>
+  </packagedElement>
   <profileApplication xmi:id="_sn-UlqdPEeeLZMDLDErqkw">
     <eAnnotations xmi:id="_sn-Ul6dPEeeLZMDLDErqkw" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
