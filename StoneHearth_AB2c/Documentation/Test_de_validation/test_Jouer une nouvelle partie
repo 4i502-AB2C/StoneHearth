@@ -1,0 +1,15 @@
+*Nom:Jouer une nouvelle partie.						*id: TV03.
+*Context:un joueur connecté qui a le rang inférieur de 100 joue une nouvelle partie et gange.
+*Entrèes: userName, rang.
+*Sénario:
+	1-Choisir jouer une nouvelle partie.
+	2-Le jeu demande du joueur de choisir un deck.
+	3-Le joueur choisit un deck par se deck mémorisés.
+	4-Le jeu confirme le choix.
+	5-Le jeu indique au joueur le début de la partie.
+	6-Jouer la partie.
+	7-La partie est terminée.
+	8-Le jeueur a gagné.
+	9-Le jeu affiche le nouveau rang de joueur.
+*Résultat attendu: jouer la partie, Le rang doit s'incrémenter de 1.
+*Moyen de vérification: vérification du rang après avoir terminer la partie, il doit être incrémenté de 1.

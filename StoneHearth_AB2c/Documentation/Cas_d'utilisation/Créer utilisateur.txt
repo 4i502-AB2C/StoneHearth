@@ -1,0 +1,44 @@
+*Nom: Créer utilisateur.
+*Date: Date d'aujourd'hui.
+*Description: Permet à une personne de créer un compte dans l'application.
+*Acteur: Une personne.
+*Préconditions:
+*Scénario:
+	1-Choisir créer un nouveau compte.
+	2-L'application affiche un formulaire à remplir.
+	3-La personne remplie le formulaire.
+	4-L'application vérifier les informations indiquées.
+	5-L'application demande a la personne si elle veut renseigner ses cordonnées bancaires.
+	6-La personne choisir oui.
+	7-l'aaplication appelle la fonction rensseigner coordonnées bancaires.
+	8-L'appliction enregistre le nouveau joueur.
+	9-L'application s'initialise le rang de joueur à 0.
+	10-L'application distribue au joueur les cartes basiques et les 5 packs.
+	11-Le joueur ouvre les 5 packs.
+	12-L'application demande au joueur de composé le 1er deck.
+	13-Le joueur choisit les 30 cartes et confirme.
+	14-L'application demande au joueur de composé le 2eme deck.
+	15-Le joueur choisit les 30 cartes et confirme.
+	16-L'application demande au joueur de composé le 3eme deck.
+	17-Le joueur choisit les 30 cartes et confirme.
+	18-L'application enregistre les 3decks.
+	19-L'application affiche un message disant que l'enregistrement à été fait avec succès.
+*Post Conditions:
+L'enregistrement est fait et le joueur fait partie des joueurs dans la base de données.
+*ALternative:
+	AL1: Renseigner coordonnées bancaires ulterieurement.
+		1-En SN6 La personne choisit de ne pas renseigner ses coordonnées tout de suite.
+		2-Aller à SN8.
+*Exception:
+	E1:Champs vide
+		1-En SN3 la personne laisse un champs vide.
+		2-L'application affiche un message disant qu'il faudrait remplir les champs laissés vide
+	E2:Utilisateur existe
+		1-En SN4 l'application découvre que le nom d'utilisateur existe déjà.
+		2-L'application affiche un message disant que le nom d'utilisateur utilisé existe déjà et qu'il faut le changer. 
+	E4:Annuler L'enregistrement.
+		1-En SN3 la personne décide d'annuler l'enregistrement.
+		2-L'application demande de confirmer l'annulation.
+		3-La personne confirme.
+		4-L'application affiche un message de confirmation de l'annulation. 
+	

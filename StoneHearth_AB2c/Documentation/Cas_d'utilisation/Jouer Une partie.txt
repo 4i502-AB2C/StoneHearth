@@ -1,0 +1,57 @@
+*Nom: Jouer une nouvelle partie.
+*Date: Date d'aujourd'hui.
+*Description: Permet à un joueur de jouer une nouvelle partie.
+*Acteur: Une personne.
+*Préconditions:
+*Scénario:
+	1-Choisir jouer une nouvelle partie.
+	2-Le jeu demande du joueur de choisir un deck.
+	3-Le joueur choisit un deck par se deck mémorisés.
+	4-Le jeu confirme le choix.
+	5-Le jeux cherche un joueur de même rang.
+	6-Le jeu indique au joueur le début de la partie.
+	7-Le joueur joue son tour.
+	8-Le La partie n'est pas terminée.
+	9-Le jeu donne la main à l'adversaire.
+	10-Le L'adversaire joue son tour.
+	11-La partie est terminée.
+	12-Le jeueur a gagné.
+	13-Le rang s'incrémente de 1.
+	14-Le jeu affiche le nouveau rang de joueur.
+	15-le jeu demande si le joueur veux jouer une autre partie.
+	16-Le joueurs choisit non.
+	17-Reour à l'accueil.
+*Post Conditions:
+Le rang de joueur change et devient égal à rang+1 ou rang-1.
+*ALternative:
+	AL1: La partie est términée:
+		1-En SN8 La partie est terminé.
+		2-Aller à SN12.
+	AL2: La partie n'est pas términée:
+		1-En SN11 La partie n'est pas terminé.
+		2-Aller à SN7.
+	AL3: Le joueur a perdu:
+		1-En SN12 LE joueur a perdu.
+		2-Le rang se décrémente de 1.
+	AL4:Jouer une nouvelle partie:
+		1-En SN15 Le joueur choisit oui
+		2-Aller à SN2.
+*Exception:
+	E1:Annuler la partie.
+		1-En SN[2..5] Le joueur décide de terminer la partie.
+		2-Le jeu confirme l'annulation.
+		3-Le joueur confirme.
+		4-Le jeu affiche "Partie annulée".
+		5-Retour à l'accueil.
+	E2:S'abandonner:
+		1-En SN[6..10] le joueur décide de s'abandonner.
+		2-Le jeu indique que si vous confirmez l'abandon vous serez perdu.
+		3-Le joueur confirme.
+		4-2-Le rang se décrémente de 1.
+		5-Aller à SN14.
+	E3:Annuler l'abandon:
+		1-En E2.3 le joueur annule l'abo=andon.
+		2-Retour à SN où il était avant de décider de s'abandonner.
+	
+		
+

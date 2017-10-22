@@ -1,0 +1,19 @@
+*Nom:Créer Utilisateur.						*id: TV01.
+*Context:Un visiteur qui n'est pas connécter crée un nouveau compte.
+*Entrèes: nom, prénom, userName, mot de passe, confirmation de mot de passe.
+*Sénario:
+	1-Choisir créer un nouveau compte.
+	2-L'application affiche un formulaire à remplir.
+	3-La personne remplie le formulaire.
+	5-L'application demande a la personne si elle veut renseigner ses cordonnées bancaires.
+	6-La personne choisir non.
+	7-L'application distribue au joueur les cartes basiques et les 5 packs.
+	8-Le joueur ouvre les 5 packs.
+	9-L'application demande au joueur de composé le 1er deck.
+	10-Le joueur choisit les 30 cartes et confirme.
+	11-L'application demande au joueur de composé le 2eme deck.
+	12-Le joueur choisit les 30 cartes et confirme.
+	13-L'application demande au joueur de composé le 3eme deck.
+	14-Le joueur choisit les 30 cartes et confirme.
+*Résultat attendu: Compte est crée avec succès, enregistrement de 3decks.
+*Moyen de vérification: se connecter avec le userName et le mot de passe correspandant, aller vérification les informations personnelles et les 3 decks enregistrés et les comparer avec les données utilisées à la création de compte.
