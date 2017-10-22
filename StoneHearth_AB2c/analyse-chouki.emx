@@ -1830,7 +1830,7 @@
     <ownedAttribute xmi:id="_qkquwbWiEee3etmEZ3eGVw" name="card Manager2" type="_i4T6ULWSEee8nNnJgVhz5w"/>
     <ownedAttribute xmi:id="_KLn48bWkEee3etmEZ3eGVw" name="joueur" type="_3NvZYKdPEeeLZMDLDErqkw"/>
     <ownedAttribute xmi:id="_e_48obWlEee3etmEZ3eGVw" name="stoneHearth">
-      <type xmi:type="uml:Class" href="analyse.emx#_yl35ELJVEeeUK9QVTWyEjA?analyse%20-%20merge/StoneHearth?"/>
+      <type xmi:type="uml:Class" href="analyse.emx#_yl35ELJVEeeUK9QVTWyEjA?analyse/StoneHearth?"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_KmC8YLWqEee3etmEZ3eGVw" name="Copy_1_stoneHearth" type="_y42gkLWkEee3etmEZ3eGVw"/>
   </packagedElement>
@@ -2088,28 +2088,28 @@
   <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_vNTiQbWsEee3etmEZ3eGVw" name="SendOperationEvent8" operation="_vNTiQLWsEee3etmEZ3eGVw"/>
   <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_vNTiQrWsEee3etmEZ3eGVw" name="ReceiveOperationEvent8" operation="_vNTiQLWsEee3etmEZ3eGVw"/>
   <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_Uibo4LdeEeeMQZHoSfgv0Q" name="SendOperationEvent9">
-    <operation href="analyse.emx#_Pz7SYLdeEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/Ajouter%20Cartes()?"/>
+    <operation href="analyse.emx#_Pz7SYLdeEeeMQZHoSfgv0Q?analyse/StoneHearth/Ajouter%20Cartes()?"/>
   </packagedElement>
   <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_UicP8LdeEeeMQZHoSfgv0Q" name="ReceiveOperationEvent9">
-    <operation href="analyse.emx#_Pz7SYLdeEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/Ajouter%20Cartes()?"/>
+    <operation href="analyse.emx#_Pz7SYLdeEeeMQZHoSfgv0Q?analyse/StoneHearth/Ajouter%20Cartes()?"/>
   </packagedElement>
   <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_VJIcgLdeEeeMQZHoSfgv0Q" name="SendOperationEvent10">
-    <operation href="analyse.emx#_Pz75crdeEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/Generer%20Pack()?"/>
+    <operation href="analyse.emx#_Pz75crdeEeeMQZHoSfgv0Q?analyse/StoneHearth/Generer%20Pack()?"/>
   </packagedElement>
   <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_VJJDkLdeEeeMQZHoSfgv0Q" name="ReceiveOperationEvent10">
-    <operation href="analyse.emx#_Pz75crdeEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/Generer%20Pack()?"/>
+    <operation href="analyse.emx#_Pz75crdeEeeMQZHoSfgv0Q?analyse/StoneHearth/Generer%20Pack()?"/>
   </packagedElement>
   <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_VpILMLdeEeeMQZHoSfgv0Q" name="SendOperationEvent11">
-    <operation href="analyse.emx#_Pz75cbdeEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/Verifier%20Droits()?"/>
+    <operation href="analyse.emx#_Pz75cbdeEeeMQZHoSfgv0Q?analyse/StoneHearth/Verifier%20Droits()?"/>
   </packagedElement>
   <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_VpIyQLdeEeeMQZHoSfgv0Q" name="ReceiveOperationEvent11">
-    <operation href="analyse.emx#_Pz75cbdeEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/Verifier%20Droits()?"/>
+    <operation href="analyse.emx#_Pz75cbdeEeeMQZHoSfgv0Q?analyse/StoneHearth/Verifier%20Droits()?"/>
   </packagedElement>
   <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_WR1J8LdeEeeMQZHoSfgv0Q" name="SendOperationEvent12">
-    <operation href="analyse.emx#_Pz75cLdeEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/Ouvrir%20Pack()?"/>
+    <operation href="analyse.emx#_Pz75cLdeEeeMQZHoSfgv0Q?analyse/StoneHearth/Ouvrir%20Pack()?"/>
   </packagedElement>
   <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_WR2_ILdeEeeMQZHoSfgv0Q" name="ReceiveOperationEvent12">
-    <operation href="analyse.emx#_Pz75cLdeEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/Ouvrir%20Pack()?"/>
+    <operation href="analyse.emx#_Pz75cLdeEeeMQZHoSfgv0Q?analyse/StoneHearth/Ouvrir%20Pack()?"/>
   </packagedElement>
   <profileApplication xmi:id="_sn-UlqdPEeeLZMDLDErqkw">
     <eAnnotations xmi:id="_sn-Ul6dPEeeLZMDLDErqkw" source="http://www.eclipse.org/uml2/2.0.0/UML">

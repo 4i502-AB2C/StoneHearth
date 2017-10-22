@@ -1848,23 +1848,23 @@
         <message xmi:id="_A-x5cLWlEeeTBJlUTPafRg" name="ajouterDeck" messageSort="reply" receiveEvent="_A-x5cbWlEeeTBJlUTPafRg" sendEvent="_A-xSYbWlEeeTBJlUTPafRg" connector="_rkfc0LJcEee_fuzhRBGJgQ"/>
       </ownedBehavior>
       <ownedAttribute xmi:id="_3GRssLJWEee_fuzhRBGJgQ" name="Bob">
-        <type xmi:type="uml:Actor" href="analyse.emx#_X6ZAUKdREeeLZMDLDErqkw?analyse%20-%20merge/visiteur?"/>
+        <type xmi:type="uml:Actor" href="analyse.emx#_X6ZAUKdREeeLZMDLDErqkw?analyse/visiteur?"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_kaUR8bJYEee_fuzhRBGJgQ" name="stoneHearth" type="_FMmuMLJXEee_fuzhRBGJgQ"/>
       <ownedAttribute xmi:id="_WWptcbJZEee_fuzhRBGJgQ" name="stolenHearth">
-        <type xmi:type="uml:Class" href="analyse.emx#_yl35ELJVEeeUK9QVTWyEjA?analyse%20-%20merge/StoneHearth?"/>
+        <type xmi:type="uml:Class" href="analyse.emx#_yl35ELJVEeeUK9QVTWyEjA?analyse/StoneHearth?"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_qj_pILJcEee_fuzhRBGJgQ" name="Bob114">
-        <type xmi:type="uml:Class" href="analyse.emx#_Hkt1kKdVEeeLZMDLDErqkw?analyse%20-%20merge/StoneHearth/joueur?"/>
+        <type xmi:type="uml:Class" href="analyse.emx#_Hkt1kKdVEeeLZMDLDErqkw?analyse/StoneHearth/joueur?"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_9iil0bNkEeeaoIMvfWGBow" name="deck1">
-        <type xmi:type="uml:Class" href="analyse.emx#_kf8rQKdUEeeLZMDLDErqkw?analyse%20-%20merge/StoneHearth/deck?"/>
+        <type xmi:type="uml:Class" href="analyse.emx#_kf8rQKdUEeeLZMDLDErqkw?analyse/StoneHearth/deck?"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_Sgx6ULNlEeeaoIMvfWGBow" name="deck2">
-        <type xmi:type="uml:Class" href="analyse.emx#_kf8rQKdUEeeLZMDLDErqkw?analyse%20-%20merge/StoneHearth/deck?"/>
+        <type xmi:type="uml:Class" href="analyse.emx#_kf8rQKdUEeeLZMDLDErqkw?analyse/StoneHearth/deck?"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_Vl1mwLNlEeeaoIMvfWGBow" name="deck3">
-        <type xmi:type="uml:Class" href="analyse.emx#_kf8rQKdUEeeLZMDLDErqkw?analyse%20-%20merge/StoneHearth/deck?"/>
+        <type xmi:type="uml:Class" href="analyse.emx#_kf8rQKdUEeeLZMDLDErqkw?analyse/StoneHearth/deck?"/>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_FMmuMLJXEee_fuzhRBGJgQ" name="StoneHearth" useCase="_ySteAKzaEeeEZ5hmCE1QBQ _l3i90KzaEeeEZ5hmCE1QBQ _Yyw44KzaEeeEZ5hmCE1QBQ _lKoj0KdQEeeLZMDLDErqkw _J4iEkKdQEeeLZMDLDErqkw _9mm_8KdPEeeLZMDLDErqkw _8BdnEKdPEeeLZMDLDErqkw _tqVUAKdQEeeLZMDLDErqkw _bBy8QKzaEeeEZ5hmCE1QBQ _iwcZUKdQEeeLZMDLDErqkw _MiOe4KzbEeeEZ5hmCE1QBQ">
@@ -2798,19 +2798,19 @@
         </message>
       </ownedBehavior>
       <ownedAttribute xmi:id="_6ODCELQbEee8_-Y0xTw9tg" name="Bob">
-        <type xmi:type="uml:Actor" href="analyse.emx#_3NvZYKdPEeeLZMDLDErqkw?analyse%20-%20merge/joueur?"/>
+        <type xmi:type="uml:Actor" href="analyse.emx#_3NvZYKdPEeeLZMDLDErqkw?analyse/joueur?"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_Cc1zALQdEee8_-Y0xTw9tg" name="stolenHearth">
-        <type xmi:type="uml:Class" href="analyse.emx#_yl35ELJVEeeUK9QVTWyEjA?analyse%20-%20merge/StoneHearth?"/>
+        <type xmi:type="uml:Class" href="analyse.emx#_yl35ELJVEeeUK9QVTWyEjA?analyse/StoneHearth?"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_WLnOQLQeEee8_-Y0xTw9tg" name="partie">
-        <type xmi:type="uml:Class" href="analyse.emx#_yl35ELJVEeeUK9QVTWyEjA?analyse%20-%20merge/StoneHearth?"/>
+        <type xmi:type="uml:Class" href="analyse.emx#_yl35ELJVEeeUK9QVTWyEjA?analyse/StoneHearth?"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_NAKgcLQgEee8_-Y0xTw9tg" name="Bob114">
-        <type xmi:type="uml:Class" href="analyse.emx#_Hkt1kKdVEeeLZMDLDErqkw?analyse%20-%20merge/StoneHearth/joueur?"/>
+        <type xmi:type="uml:Class" href="analyse.emx#_Hkt1kKdVEeeLZMDLDErqkw?analyse/StoneHearth/joueur?"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_NpM2YLQgEee8_-Y0xTw9tg" name="toto">
-        <type xmi:type="uml:Class" href="analyse.emx#_Hkt1kKdVEeeLZMDLDErqkw?analyse%20-%20merge/StoneHearth/joueur?"/>
+        <type xmi:type="uml:Class" href="analyse.emx#_Hkt1kKdVEeeLZMDLDErqkw?analyse/StoneHearth/joueur?"/>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_FlPHULQdEee8_-Y0xTw9tg" name="SendOperationEvent10" operation="_FlOgQLQdEee8_-Y0xTw9tg"/>
@@ -2853,58 +2853,58 @@
       <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fwhLoLQhEee8_-Y0xTw9tg" name="rang"/>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_C0QFALdgEeeMQZHoSfgv0Q" name="SendOperationEvent20">
-      <operation href="analyse.emx#_PhTb4LdfEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/inscription?"/>
+      <operation href="analyse.emx#_PhTb4LdfEeeMQZHoSfgv0Q?analyse/StoneHearth/inscription?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_C0QsELdgEeeMQZHoSfgv0Q" name="ReceiveOperationEvent18">
-      <operation href="analyse.emx#_PhTb4LdfEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/inscription?"/>
+      <operation href="analyse.emx#_PhTb4LdfEeeMQZHoSfgv0Q?analyse/StoneHearth/inscription?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_D8358LdgEeeMQZHoSfgv0Q" name="SendOperationEvent21">
-      <operation href="analyse.emx#_PhSNwrdfEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/verifierUserName?"/>
+      <operation href="analyse.emx#_PhSNwrdfEeeMQZHoSfgv0Q?analyse/StoneHearth/verifierUserName?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_D85IELdgEeeMQZHoSfgv0Q" name="ReceiveOperationEvent19">
-      <operation href="analyse.emx#_PhSNwrdfEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/verifierUserName?"/>
+      <operation href="analyse.emx#_PhSNwrdfEeeMQZHoSfgv0Q?analyse/StoneHearth/verifierUserName?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_G4Yo0LdgEeeMQZHoSfgv0Q" name="SendOperationEvent22">
-      <operation href="analyse.emx#_PhS00LdfEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/ajouterCB?"/>
+      <operation href="analyse.emx#_PhS00LdfEeeMQZHoSfgv0Q?analyse/StoneHearth/ajouterCB?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_G4ZP4LdgEeeMQZHoSfgv0Q" name="ReceiveOperationEvent20">
-      <operation href="analyse.emx#_PhS00LdfEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/ajouterCB?"/>
+      <operation href="analyse.emx#_PhS00LdfEeeMQZHoSfgv0Q?analyse/StoneHearth/ajouterCB?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_H_O8ILdgEeeMQZHoSfgv0Q" name="SendOperationEvent23">
-      <operation href="analyse.emx#_PhTb5bdfEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/verifierCB?"/>
+      <operation href="analyse.emx#_PhTb5bdfEeeMQZHoSfgv0Q?analyse/StoneHearth/verifierCB?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_H_PjMLdgEeeMQZHoSfgv0Q" name="ReceiveOperationEvent21">
-      <operation href="analyse.emx#_PhTb5bdfEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/verifierCB?"/>
+      <operation href="analyse.emx#_PhTb5bdfEeeMQZHoSfgv0Q?analyse/StoneHearth/verifierCB?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_hpmokLdgEeeMQZHoSfgv0Q" name="SendOperationEvent24">
-      <operation href="analyse.emx#_PhSNwLdfEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/enregisterDecks?"/>
+      <operation href="analyse.emx#_PhSNwLdfEeeMQZHoSfgv0Q?analyse/StoneHearth/enregisterDecks?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_hpn2sLdgEeeMQZHoSfgv0Q" name="ReceiveOperationEvent22">
-      <operation href="analyse.emx#_PhSNwLdfEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/enregisterDecks?"/>
+      <operation href="analyse.emx#_PhSNwLdfEeeMQZHoSfgv0Q?analyse/StoneHearth/enregisterDecks?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_-GPL0LdhEeeMQZHoSfgv0Q" name="SendOperationEvent25">
-      <operation href="analyse.emx#_PhS01rdfEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/calculerGangant?"/>
+      <operation href="analyse.emx#_PhS01rdfEeeMQZHoSfgv0Q?analyse/StoneHearth/calculerGangant?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_-GQZ8LdhEeeMQZHoSfgv0Q" name="ReceiveOperationEvent23">
-      <operation href="analyse.emx#_PhS01rdfEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/calculerGangant?"/>
+      <operation href="analyse.emx#_PhS01rdfEeeMQZHoSfgv0Q?analyse/StoneHearth/calculerGangant?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_-w_ZALdhEeeMQZHoSfgv0Q" name="SendOperationEvent26">
-      <operation href="analyse.emx#_PhRmsLdfEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/chercherAdversaire?"/>
+      <operation href="analyse.emx#_PhRmsLdfEeeMQZHoSfgv0Q?analyse/StoneHearth/chercherAdversaire?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_-xAAELdhEeeMQZHoSfgv0Q" name="ReceiveOperationEvent24">
-      <operation href="analyse.emx#_PhRmsLdfEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/chercherAdversaire?"/>
+      <operation href="analyse.emx#_PhRmsLdfEeeMQZHoSfgv0Q?analyse/StoneHearth/chercherAdversaire?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_BcumgLdiEeeMQZHoSfgv0Q" name="SendOperationEvent27">
-      <operation href="analyse.emx#_PhSNxbdfEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/jouerPartie?"/>
+      <operation href="analyse.emx#_PhSNxbdfEeeMQZHoSfgv0Q?analyse/StoneHearth/jouerPartie?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_Bcv0oLdiEeeMQZHoSfgv0Q" name="ReceiveOperationEvent25">
-      <operation href="analyse.emx#_PhSNxbdfEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/jouerPartie?"/>
+      <operation href="analyse.emx#_PhSNxbdfEeeMQZHoSfgv0Q?analyse/StoneHearth/jouerPartie?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_CgP5ALdiEeeMQZHoSfgv0Q" name="SendOperationEvent28">
-      <operation href="analyse.emx#_PhS02LdfEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/jouerTour?"/>
+      <operation href="analyse.emx#_PhS02LdfEeeMQZHoSfgv0Q?analyse/StoneHearth/jouerTour?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_CgRHILdiEeeMQZHoSfgv0Q" name="ReceiveOperationEvent26">
-      <operation href="analyse.emx#_PhS02LdfEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/jouerTour?"/>
+      <operation href="analyse.emx#_PhS02LdfEeeMQZHoSfgv0Q?analyse/StoneHearth/jouerTour?"/>
     </packagedElement>
     <profileApplication xmi:id="_sn-UlqdPEeeLZMDLDErqkw">
       <eAnnotations xmi:id="_sn-Ul6dPEeeLZMDLDErqkw" source="http://www.eclipse.org/uml2/2.0.0/UML">

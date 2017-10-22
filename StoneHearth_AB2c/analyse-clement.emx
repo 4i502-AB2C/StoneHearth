@@ -2677,10 +2677,10 @@
         <message xmi:id="_aBw7I7WTEeepMqW1BkCAOA" name="Oui" messageSort="reply" receiveEvent="_aBw7C7WTEeepMqW1BkCAOA" sendEvent="_aBw7CrWTEeepMqW1BkCAOA" connector="_aBwUqbWTEeepMqW1BkCAOA"/>
       </ownedBehavior>
       <ownedAttribute xmi:id="_8M9vILJVEeenUo0BovABMw" name="Joueur1">
-        <type xmi:type="uml:Actor" href="analyse.emx#_3NvZYKdPEeeLZMDLDErqkw?analyse%20-%20merge/joueur?"/>
+        <type xmi:type="uml:Actor" href="analyse.emx#_3NvZYKdPEeeLZMDLDErqkw?analyse/joueur?"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_QeZoALJWEeenUo0BovABMw" name="SYS">
-        <type xmi:type="uml:Class" href="analyse.emx#_yl35ELJVEeeUK9QVTWyEjA?analyse%20-%20merge/StoneHearth?"/>
+        <type xmi:type="uml:Class" href="analyse.emx#_yl35ELJVEeeUK9QVTWyEjA?analyse/StoneHearth?"/>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_sK3IALJWEeenUo0BovABMw" name="SendOperationEvent3" operation="_sKxBYLJWEeenUo0BovABMw"/>
@@ -3573,10 +3573,10 @@
         <message xmi:id="_0TKVxLWUEeepMqW1BkCAOA" name="Annuler" messageSort="reply" receiveEvent="_0TJvUbWUEeepMqW1BkCAOA" sendEvent="_0TJvULWUEeepMqW1BkCAOA" connector="_0TJvM7WUEeepMqW1BkCAOA"/>
       </ownedBehavior>
       <ownedAttribute xmi:id="_I_ydILWSEeepMqW1BkCAOA" name="Joueur1">
-        <type xmi:type="uml:Actor" href="analyse.emx#_3NvZYKdPEeeLZMDLDErqkw?analyse%20-%20merge/joueur?"/>
+        <type xmi:type="uml:Actor" href="analyse.emx#_3NvZYKdPEeeLZMDLDErqkw?analyse/joueur?"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_Lk5eMLWSEeepMqW1BkCAOA" name="SYS">
-        <type xmi:type="uml:Class" href="analyse.emx#_yl35ELJVEeeUK9QVTWyEjA?analyse%20-%20merge/StoneHearth?"/>
+        <type xmi:type="uml:Class" href="analyse.emx#_yl35ELJVEeeUK9QVTWyEjA?analyse/StoneHearth?"/>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_SVMtULWSEeepMqW1BkCAOA" name="SendOperationEvent12" operation="_ZzCNULWREeepMqW1BkCAOA"/>
@@ -3588,64 +3588,64 @@
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_ujMNELWSEeepMqW1BkCAOA" name="SendOperationEvent15" operation="_2olcULWREeepMqW1BkCAOA"/>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_ujM0ILWSEeepMqW1BkCAOA" name="ReceiveOperationEvent15" operation="_2olcULWREeepMqW1BkCAOA"/>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_VIYLYLdaEeeMQZHoSfgv0Q" name="SendOperationEvent1">
-      <operation href="analyse.emx#_roleZLdZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/AcheterCarte?"/>
+      <operation href="analyse.emx#_roleZLdZEeeMQZHoSfgv0Q?analyse/StoneHearth/AcheterCarte?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_VIYycLdaEeeMQZHoSfgv0Q" name="ReceiveOperationEvent1">
-      <operation href="analyse.emx#_roleZLdZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/AcheterCarte?"/>
+      <operation href="analyse.emx#_roleZLdZEeeMQZHoSfgv0Q?analyse/StoneHearth/AcheterCarte?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_XoVmsLdaEeeMQZHoSfgv0Q" name="SendOperationEvent2">
-      <operation href="analyse.emx#_romsg7dZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/AfficherCartesAchetables?"/>
+      <operation href="analyse.emx#_romsg7dZEeeMQZHoSfgv0Q?analyse/StoneHearth/AfficherCartesAchetables?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_XoWNwLdaEeeMQZHoSfgv0Q" name="ReceiveOperationEvent2">
-      <operation href="analyse.emx#_romsg7dZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/AfficherCartesAchetables?"/>
+      <operation href="analyse.emx#_romsg7dZEeeMQZHoSfgv0Q?analyse/StoneHearth/AfficherCartesAchetables?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_a3TdELdaEeeMQZHoSfgv0Q" name="SendOperationEvent11">
-      <operation href="analyse.emx#_rok3ULdZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/DebiterJoueur?"/>
+      <operation href="analyse.emx#_rok3ULdZEeeMQZHoSfgv0Q?analyse/StoneHearth/DebiterJoueur?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_a3UEILdaEeeMQZHoSfgv0Q" name="ReceiveOperationEvent11">
-      <operation href="analyse.emx#_rok3ULdZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/DebiterJoueur?"/>
+      <operation href="analyse.emx#_rok3ULdZEeeMQZHoSfgv0Q?analyse/StoneHearth/DebiterJoueur?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_cRrJULdaEeeMQZHoSfgv0Q" name="SendOperationEvent16">
-      <operation href="analyse.emx#_romsgLdZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/GetPrixCarte?"/>
+      <operation href="analyse.emx#_romsgLdZEeeMQZHoSfgv0Q?analyse/StoneHearth/GetPrixCarte?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_cRrwYLdaEeeMQZHoSfgv0Q" name="ReceiveOperationEvent16">
-      <operation href="analyse.emx#_romsgLdZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/GetPrixCarte?"/>
+      <operation href="analyse.emx#_romsgLdZEeeMQZHoSfgv0Q?analyse/StoneHearth/GetPrixCarte?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_fRCdcLdaEeeMQZHoSfgv0Q" name="SendOperationEvent17">
-      <operation href="analyse.emx#_romFcLdZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/RetirerDeCollection?"/>
+      <operation href="analyse.emx#_romFcLdZEeeMQZHoSfgv0Q?analyse/StoneHearth/RetirerDeCollection?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_fRDEgLdaEeeMQZHoSfgv0Q" name="ReceiveOperationEvent17">
-      <operation href="analyse.emx#_romFcLdZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/RetirerDeCollection?"/>
+      <operation href="analyse.emx#_romFcLdZEeeMQZHoSfgv0Q?analyse/StoneHearth/RetirerDeCollection?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_gOfkMLdaEeeMQZHoSfgv0Q" name="SendOperationEvent18">
-      <operation href="analyse.emx#_ronTk7dZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/VerifierCompteBancaire?"/>
+      <operation href="analyse.emx#_ronTk7dZEeeMQZHoSfgv0Q?analyse/StoneHearth/VerifierCompteBancaire?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_gOgLQLdaEeeMQZHoSfgv0Q" name="ReceiveOperationEvent18">
-      <operation href="analyse.emx#_ronTk7dZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/VerifierCompteBancaire?"/>
+      <operation href="analyse.emx#_ronTk7dZEeeMQZHoSfgv0Q?analyse/StoneHearth/VerifierCompteBancaire?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_gyUqALdaEeeMQZHoSfgv0Q" name="SendOperationEvent19">
-      <operation href="analyse.emx#_roleYLdZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/VerifierJoyaux?"/>
+      <operation href="analyse.emx#_roleYLdZEeeMQZHoSfgv0Q?analyse/StoneHearth/VerifierJoyaux?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_gyV4ILdaEeeMQZHoSfgv0Q" name="ReceiveOperationEvent19">
-      <operation href="analyse.emx#_roleYLdZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/VerifierJoyaux?"/>
+      <operation href="analyse.emx#_roleYLdZEeeMQZHoSfgv0Q?analyse/StoneHearth/VerifierJoyaux?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_E-ndELdbEeeMQZHoSfgv0Q" name="SendOperationEvent20">
-      <operation href="analyse.emx#_roleYrdZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/DetruireCarte?"/>
+      <operation href="analyse.emx#_roleYrdZEeeMQZHoSfgv0Q?analyse/StoneHearth/DetruireCarte?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_E-oEILdbEeeMQZHoSfgv0Q" name="ReceiveOperationEvent20">
-      <operation href="analyse.emx#_roleYrdZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/DetruireCarte?"/>
+      <operation href="analyse.emx#_roleYrdZEeeMQZHoSfgv0Q?analyse/StoneHearth/DetruireCarte?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_GB4Q4LdbEeeMQZHoSfgv0Q" name="SendOperationEvent21">
-      <operation href="analyse.emx#_ron6oLdZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/CrediterJoueur?"/>
+      <operation href="analyse.emx#_ron6oLdZEeeMQZHoSfgv0Q?analyse/StoneHearth/CrediterJoueur?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_GB5fALdbEeeMQZHoSfgv0Q" name="ReceiveOperationEvent21">
-      <operation href="analyse.emx#_ron6oLdZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/CrediterJoueur?"/>
+      <operation href="analyse.emx#_ron6oLdZEeeMQZHoSfgv0Q?analyse/StoneHearth/CrediterJoueur?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_G6NAALdbEeeMQZHoSfgv0Q" name="SendOperationEvent22">
-      <operation href="analyse.emx#_rok3U7dZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/AfficherCartesNonBasiques?"/>
+      <operation href="analyse.emx#_rok3U7dZEeeMQZHoSfgv0Q?analyse/StoneHearth/AfficherCartesNonBasiques?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_G6NnELdbEeeMQZHoSfgv0Q" name="ReceiveOperationEvent22">
-      <operation href="analyse.emx#_rok3U7dZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/AfficherCartesNonBasiques?"/>
+      <operation href="analyse.emx#_rok3U7dZEeeMQZHoSfgv0Q?analyse/StoneHearth/AfficherCartesNonBasiques?"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_Wubb4KzVEeenx-qLyeZ9tQ" memberEnd="_Wud4IKzVEeenx-qLyeZ9tQ _WujXsKzVEeenx-qLyeZ9tQ" navigableOwnedEnd="_Wud4IKzVEeenx-qLyeZ9tQ _WujXsKzVEeenx-qLyeZ9tQ">
