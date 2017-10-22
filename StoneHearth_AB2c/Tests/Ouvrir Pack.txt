@@ -1,0 +1,19 @@
+NOM : Ouvrir un pack
+
+Contexte : un joueur authentifié souhaite ouvrir un pack
+et a le droit d'ouvrir un pack
+
+
+Sénario : 
+	1 - le joueur souhaite ouvrir un de ces pack
+	2 - le système génère 5 cartes aleatiores et les affiche
+	3 - le système affiche les 5 cartes
+	4 - le joueur regarde ces cartes et confirme (il appuie OK)
+Resultat :
+	 - le système ajoute les 5 cartes dans le banque des cartes du joueur.
+	
+Moyenne Verification :
+	- fonction comparasion lists des cartes enregistre vs le pack.
+	
+
+		  
