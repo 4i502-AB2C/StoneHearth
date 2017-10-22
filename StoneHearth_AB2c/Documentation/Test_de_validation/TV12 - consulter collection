@@ -1,0 +1,15 @@
+TITRE : Consulter collection
+ID : TV12
+CONTEXTE : Un joueur décide de consulter sa collection
+            Le joueur n'a ouvert aucun pack
+            
+ENTRE : clique sur consulter collection
+
+SCÉNARIO :
+	1 - le joueur souhaite consulter sa collection
+RÉSULTAT ATTENDU :
+    Le système affiche toutes les cartes basique
+    Le système affiche 0 joyaux
+MOYEN DE VITRIFICATION :
+	visuel pour les cartes
+    visuel pour les joyaux

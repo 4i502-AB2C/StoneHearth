@@ -1,0 +1,19 @@
+TITRE : Acheter une carte
+ID : TV10
+CONTEXTE : Un joueur connecté choisi d'acheter une carte
+            Le joueur a récupéré plus de 20 joyaux (TV09)
+            La carte C01 est une carte commune
+            Le joueur n'a pas la carte C01
+ENTRE : clique sur acheter une carte
+
+SCÉNARIO :
+	1 - le joueur souhaite acheter une carte
+	2 - il choisit la carte C01
+	3 - il valide la l'achat
+RÉSULTAT ATTENDU :
+	Le système affiche la confirmation
+    Le joueur a 20 joyaux de moins
+    Le joueur a la carte C01
+MOYEN DE VITRIFICATION :
+	le visuel de confirmation
+	acceder a la collection (TV12)
