@@ -1459,11 +1459,7 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_7vucsLJZEeeafN-f_ZFtqA" name="StoneHearth">
-      <eAnnotations xmi:id="_7vvDwLJZEeeafN-f_ZFtqA" source="uml2.diagrams" references="_7vvDwbJZEeeafN-f_ZFtqA">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_7vvDwbJZEeeafN-f_ZFtqA" type="Freeform" name="Informations générales">
-          <element xsi:nil="true"/>
-        </contents>
-      </eAnnotations>
+      <eAnnotations xmi:id="_7vvDwLJZEeeafN-f_ZFtqA" source="uml2.diagrams"/>
       <packagedElement xmi:type="uml:Enumeration" xmi:id="_xnqk4KdTEeeLZMDLDErqkw" name="Rareté">
         <ownedAttribute xmi:id="_18J44adTEeeLZMDLDErqkw" name="carte" visibility="private" type="_eNDRMKdREeeLZMDLDErqkw" association="_18J44KdTEeeLZMDLDErqkw">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18Kf8adTEeeLZMDLDErqkw" value="*"/>
