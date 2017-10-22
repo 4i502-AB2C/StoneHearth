@@ -2942,8 +2942,8 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RgxmwLWSEeepMqW1BkCAOA" covered="_I_x2ELWSEeepMqW1BkCAOA" event="_E-oEILdbEeeMQZHoSfgv0Q" message="_Rgw_sbWSEeepMqW1BkCAOA"/>
         <message xmi:id="_RgtVULWSEeepMqW1BkCAOA" name="DetruireCarte" receiveEvent="_RgvxkLWSEeepMqW1BkCAOA" sendEvent="_RgujcLWSEeepMqW1BkCAOA" connector="_RgxmwbWSEeepMqW1BkCAOA"/>
         <message xmi:id="_Rgw_sbWSEeepMqW1BkCAOA" name="DetruireCarte" messageSort="reply" receiveEvent="_RgxmwLWSEeepMqW1BkCAOA" sendEvent="_Rgw_sLWSEeepMqW1BkCAOA" connector="_RgxmwbWSEeepMqW1BkCAOA"/>
-        <message xmi:id="_UPcMcLWSEeepMqW1BkCAOA" name="AfficherCartesDoubles" receiveEvent="_UPdakbWSEeepMqW1BkCAOA" sendEvent="_UPdakLWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
-        <message xmi:id="_UPeosLWSEeepMqW1BkCAOA" name="AfficherCartesDoubles" messageSort="reply" receiveEvent="_UPeosbWSEeepMqW1BkCAOA" sendEvent="_UPeBobWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
+        <message xmi:id="_UPcMcLWSEeepMqW1BkCAOA" name="AfficherCartesNonBasiques" receiveEvent="_UPdakbWSEeepMqW1BkCAOA" sendEvent="_UPdakLWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
+        <message xmi:id="_UPeosLWSEeepMqW1BkCAOA" name="AfficherCartesNonBasiques" messageSort="reply" receiveEvent="_UPeosbWSEeepMqW1BkCAOA" sendEvent="_UPeBobWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
         <message xmi:id="_btiVsLWSEeepMqW1BkCAOA" name="Demander Carte A Detruire" receiveEvent="_btjj0LWSEeepMqW1BkCAOA" sendEvent="_bti8wLWSEeepMqW1BkCAOA" connector="_RgxmwbWSEeepMqW1BkCAOA"/>
         <message xmi:id="_btlZAbWSEeepMqW1BkCAOA" name="Choisir Carte" messageSort="reply" receiveEvent="_btlZArWSEeepMqW1BkCAOA" sendEvent="_btlZALWSEeepMqW1BkCAOA" connector="_RgxmwbWSEeepMqW1BkCAOA"/>
         <message xmi:id="_itlRALWSEeepMqW1BkCAOA" name="GetPrixCarte" receiveEvent="_itnGMLWSEeepMqW1BkCAOA" sendEvent="_itmfILWSEeepMqW1BkCAOA" connector="_UPfPwLWSEeepMqW1BkCAOA"/>
@@ -3242,8 +3242,8 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MM9SkrWUEeepMqW1BkCAOA" covered="_MM9SabWUEeepMqW1BkCAOA" event="_E-oEILdbEeeMQZHoSfgv0Q" message="_MM9SlLWUEeepMqW1BkCAOA"/>
         <message xmi:id="_MM9Sk7WUEeepMqW1BkCAOA" name="DetruireCarte" receiveEvent="_MM9SbLWUEeepMqW1BkCAOA" sendEvent="_MM9Sa7WUEeepMqW1BkCAOA" connector="_MM9SY7WUEeepMqW1BkCAOA"/>
         <message xmi:id="_MM9SlLWUEeepMqW1BkCAOA" name="DetruireCarte" messageSort="reply" receiveEvent="_MM9SkrWUEeepMqW1BkCAOA" sendEvent="_MM9SkbWUEeepMqW1BkCAOA" connector="_MM9SY7WUEeepMqW1BkCAOA"/>
-        <message xmi:id="_MM9SlbWUEeepMqW1BkCAOA" name="AfficherCartesDoubles" receiveEvent="_MM9Sb7WUEeepMqW1BkCAOA" sendEvent="_MM9SbrWUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_MM944LWUEeepMqW1BkCAOA" name="AfficherCartesDoubles" messageSort="reply" receiveEvent="_MM9ScrWUEeepMqW1BkCAOA" sendEvent="_MM9ScbWUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_MM9SlbWUEeepMqW1BkCAOA" name="AfficherCartesNonBasiques" receiveEvent="_MM9Sb7WUEeepMqW1BkCAOA" sendEvent="_MM9SbrWUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_MM944LWUEeepMqW1BkCAOA" name="AfficherCartesNonBasiques" messageSort="reply" receiveEvent="_MM9ScrWUEeepMqW1BkCAOA" sendEvent="_MM9ScbWUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
         <message xmi:id="_MM944bWUEeepMqW1BkCAOA" name="Demander Carte A Detruire" receiveEvent="_MM9SdLWUEeepMqW1BkCAOA" sendEvent="_MM9Sc7WUEeepMqW1BkCAOA" connector="_MM9SY7WUEeepMqW1BkCAOA"/>
         <message xmi:id="_MM944rWUEeepMqW1BkCAOA" name="Choisir Carte" messageSort="reply" receiveEvent="_MM9Sd7WUEeepMqW1BkCAOA" sendEvent="_MM9SdrWUEeepMqW1BkCAOA" connector="_MM9SY7WUEeepMqW1BkCAOA"/>
         <message xmi:id="_MM9447WUEeepMqW1BkCAOA" name="GetPrixCarte" receiveEvent="_MM9SebWUEeepMqW1BkCAOA" sendEvent="_MM9SeLWUEeepMqW1BkCAOA" connector="_MM9SZrWUEeepMqW1BkCAOA"/>
@@ -3381,9 +3381,9 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tTnwsLWUEeepMqW1BkCAOA" covered="_hf5D8LWUEeepMqW1BkCAOA" message="_tTsCILWUEeepMqW1BkCAOA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tToXwLWUEeepMqW1BkCAOA" covered="_hf5D8LWUEeepMqW1BkCAOA" event="_E-ndELdbEeeMQZHoSfgv0Q" message="_tTrbEbWUEeepMqW1BkCAOA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tToXwbWUEeepMqW1BkCAOA" covered="_hgA_wLWUEeepMqW1BkCAOA" event="_E-oEILdbEeeMQZHoSfgv0Q" message="_tTrbEbWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_tTq0ALWUEeepMqW1BkCAOA" name="AfficherCartesDoubles" messageSort="reply" receiveEvent="_tTl7gLWUEeepMqW1BkCAOA" sendEvent="_tTktYLWUEeepMqW1BkCAOA" connector="_tTspMLWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_tTq0ALWUEeepMqW1BkCAOA" name="AfficherCartesNonBasiques" messageSort="reply" receiveEvent="_tTl7gLWUEeepMqW1BkCAOA" sendEvent="_tTktYLWUEeepMqW1BkCAOA" connector="_tTspMLWUEeepMqW1BkCAOA"/>
         <message xmi:id="_tTq0AbWUEeepMqW1BkCAOA" name="Demander Carte A Detruire" receiveEvent="_tTmikLWUEeepMqW1BkCAOA" sendEvent="_tTl7gbWUEeepMqW1BkCAOA" connector="_tTtQQbWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_tTrbELWUEeepMqW1BkCAOA" name="AfficherCartesDoubles" receiveEvent="_tTjfQLWUEeepMqW1BkCAOA" sendEvent="_tTi4MLWUEeepMqW1BkCAOA" connector="_tTspMLWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_tTrbELWUEeepMqW1BkCAOA" name="AfficherCartesNonBasiques" receiveEvent="_tTjfQLWUEeepMqW1BkCAOA" sendEvent="_tTi4MLWUEeepMqW1BkCAOA" connector="_tTspMLWUEeepMqW1BkCAOA"/>
         <message xmi:id="_tTrbEbWUEeepMqW1BkCAOA" name="DetruireCarte" messageSort="reply" receiveEvent="_tToXwbWUEeepMqW1BkCAOA" sendEvent="_tToXwLWUEeepMqW1BkCAOA" connector="_tTtQQbWUEeepMqW1BkCAOA"/>
         <message xmi:id="_tTrbErWUEeepMqW1BkCAOA" name="DetruireCarte" receiveEvent="_tTiRILWUEeepMqW1BkCAOA" sendEvent="_tThqELWUEeepMqW1BkCAOA" connector="_tTtQQbWUEeepMqW1BkCAOA"/>
         <message xmi:id="_tTsCILWUEeepMqW1BkCAOA" name="Annuler" messageSort="reply" receiveEvent="_tTnwsLWUEeepMqW1BkCAOA" sendEvent="_tTnJoLWUEeepMqW1BkCAOA" connector="_tTtQQbWUEeepMqW1BkCAOA"/>
@@ -3563,8 +3563,8 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0TKVurWUEeepMqW1BkCAOA" covered="_0TJvObWUEeepMqW1BkCAOA" event="_E-oEILdbEeeMQZHoSfgv0Q" message="_0TKVvLWUEeepMqW1BkCAOA"/>
         <message xmi:id="_0TKVu7WUEeepMqW1BkCAOA" name="DetruireCarte" receiveEvent="_0TJvPLWUEeepMqW1BkCAOA" sendEvent="_0TJvO7WUEeepMqW1BkCAOA" connector="_0TJvM7WUEeepMqW1BkCAOA"/>
         <message xmi:id="_0TKVvLWUEeepMqW1BkCAOA" name="DetruireCarte" messageSort="reply" receiveEvent="_0TKVurWUEeepMqW1BkCAOA" sendEvent="_0TKVubWUEeepMqW1BkCAOA" connector="_0TJvM7WUEeepMqW1BkCAOA"/>
-        <message xmi:id="_0TKVvbWUEeepMqW1BkCAOA" name="AfficherCartesDoubles" receiveEvent="_0TJvP7WUEeepMqW1BkCAOA" sendEvent="_0TJvPrWUEeepMqW1BkCAOA" connector="_0TJvNrWUEeepMqW1BkCAOA"/>
-        <message xmi:id="_0TKVvrWUEeepMqW1BkCAOA" name="AfficherCartesDoubles" messageSort="reply" receiveEvent="_0TJvQrWUEeepMqW1BkCAOA" sendEvent="_0TJvQbWUEeepMqW1BkCAOA" connector="_0TJvNrWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_0TKVvbWUEeepMqW1BkCAOA" name="AfficherCartesNonBasiques" receiveEvent="_0TJvP7WUEeepMqW1BkCAOA" sendEvent="_0TJvPrWUEeepMqW1BkCAOA" connector="_0TJvNrWUEeepMqW1BkCAOA"/>
+        <message xmi:id="_0TKVvrWUEeepMqW1BkCAOA" name="AfficherCartesNonBasiques" messageSort="reply" receiveEvent="_0TJvQrWUEeepMqW1BkCAOA" sendEvent="_0TJvQbWUEeepMqW1BkCAOA" connector="_0TJvNrWUEeepMqW1BkCAOA"/>
         <message xmi:id="_0TKVv7WUEeepMqW1BkCAOA" name="Demander Carte A Detruire" receiveEvent="_0TJvRLWUEeepMqW1BkCAOA" sendEvent="_0TJvQ7WUEeepMqW1BkCAOA" connector="_0TJvM7WUEeepMqW1BkCAOA"/>
         <message xmi:id="_0TKVwLWUEeepMqW1BkCAOA" name="Choisir Carte" messageSort="reply" receiveEvent="_0TJvR7WUEeepMqW1BkCAOA" sendEvent="_0TJvRrWUEeepMqW1BkCAOA" connector="_0TJvM7WUEeepMqW1BkCAOA"/>
         <message xmi:id="_0TKVwbWUEeepMqW1BkCAOA" name="GetPrixCarte" receiveEvent="_0TJvSbWUEeepMqW1BkCAOA" sendEvent="_0TJvSLWUEeepMqW1BkCAOA" connector="_0TJvNrWUEeepMqW1BkCAOA"/>
@@ -3642,10 +3642,10 @@
       <operation href="analyse.emx#_ron6oLdZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/CrediterJoueur?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_G6NAALdbEeeMQZHoSfgv0Q" name="SendOperationEvent22">
-      <operation href="analyse.emx#_rok3U7dZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/AfficherCartesDoubles?"/>
+      <operation href="analyse.emx#_rok3U7dZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/AfficherCartesNonBasiques?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_G6NnELdbEeeMQZHoSfgv0Q" name="ReceiveOperationEvent22">
-      <operation href="analyse.emx#_rok3U7dZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/AfficherCartesDoubles?"/>
+      <operation href="analyse.emx#_rok3U7dZEeeMQZHoSfgv0Q?analyse%20-%20merge/StoneHearth/AfficherCartesNonBasiques?"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_Wubb4KzVEeenx-qLyeZ9tQ" memberEnd="_Wud4IKzVEeenx-qLyeZ9tQ _WujXsKzVEeenx-qLyeZ9tQ" navigableOwnedEnd="_Wud4IKzVEeenx-qLyeZ9tQ _WujXsKzVEeenx-qLyeZ9tQ">

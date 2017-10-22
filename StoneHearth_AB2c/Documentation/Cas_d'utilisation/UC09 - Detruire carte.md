@@ -12,7 +12,7 @@ Joueur
 
 ## Sequencement nominal
 1. Le joueur décide de détruire une carte
-2. Le système affiche les cartes que le joueur a en double
+2. Le système affiche les cartes non-basiques du joueur
 3. Le joueur choisit une carte
 4. Le système vérifie le prix à partir de la rareté de la carte
 5. Le système affiche le prix de la carte et demande une confirmation de destruction
