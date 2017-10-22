@@ -1,0 +1,20 @@
+TITRE : Detruire une carte
+ID : TV09
+CONTEXTE : Un joueur connecté choisi de detruire une carte
+            La carte C01 est dans les packs gratuits d'initialisation
+            La carte C01 est une carte commune
+            Le joueur a ouvert les packs gratuits d'initialisation (TV08)
+            Le joueur n'a pas la carte C01 en double
+ENTRE : clique sur detruire une carte
+
+SCÉNARIO :
+	1 - le joueur souhaite detruire une carte
+	2 - il choisit la carte C01
+	3 - il valide la suppression
+RÉSULTAT ATTENDU :
+	Le système affiche la confirmation
+    Le joueur a 2 joyaux de plus
+    Le joueur n'a plus la carte C01
+MOYEN DE VITRIFICATION :
+	le visuel de confirmation
+	acceder a la collection (TV12)

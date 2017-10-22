@@ -1,0 +1,29 @@
+*Nom: renseigner les coordonnées bancaires.
+*Date: Date d'aujourd'hui.
+*Description: renseigner les coordonnées bancaire pour pouvoir faire des achats.
+*Acteur: Un joueur.
+*Préconditions:
+*Scénario:
+	1-Le joueur choisit de remplir ses coordonnées bancaires.
+	2-L'application affiche un formulaire.
+	3-La personne renseigner ses cordonnées bancaires.
+	4-L'application vérifie ses coordonnées bancaires.
+	5-L'application enregistre ses coordonnées bancaires.
+	6-L'application affiche un message indiquant le succès de l'enregistrement des coordonnées bancaires.
+*Post Conditions:
+
+*ALternative:
+	
+*Exception:
+	E1:Champs vide
+		1-En SN3 la personne laisse un champs vide.
+		2-L'application affiche un message disant qu'il faudrait remplir les champs laissés vide
+	E2:Carte bancaire non-valide.
+		1-En SN4 l'application trouve que les coordonnées bancaires ne sont pas valide.
+		2-L'application affiche un message disant qu'il faut remplir le formulaire une autre fois avec des coordonnées valides. 
+		3-Retous à SN2.
+	E4:Annuler L'enregistrement.
+		1-En SN3 la personne décide d'annuler l'enregistrement.
+		2-L'application demande de confirmer l'annulation.
+		3-La personne confirme.
+		4-L'application affiche un message de confirmation de l'annulation. 

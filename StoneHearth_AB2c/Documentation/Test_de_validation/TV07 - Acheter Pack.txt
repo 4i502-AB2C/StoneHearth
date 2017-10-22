@@ -1,0 +1,27 @@
+NOM : Acheter un pack
+
+Contexte :un joueur authentifié souhaite acheter un pack, il a pas des droits a des packs, 
+les information banacaires sont valides.
+
+
+Sénario : 
+	1 - le joueur souhaite acheter des packs
+	2 - le système affiche le menu achat
+	3 - le joueur choisit le nombre des packs et confirme (il appuie OK)
+	4 - le système demande le code secret
+	5 - le joueur tape le code confirme (il appuie OK)
+	6 - le système valid l'achat et ajoute les packs dans le compte joueur.
+	
+Resultat :
+	- les packs sont enregistre
+
+Alternative :
+
+	
+
+Exception :
+	E1 : erreur système validation achat (API bancaire) 
+		- le système affiche l'erreur puis il retour au menu
+	E2 : le joueur annule l'achat
+		- le système retour au menu
+		  

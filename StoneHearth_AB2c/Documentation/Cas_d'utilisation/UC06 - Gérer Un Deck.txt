@@ -43,7 +43,3 @@ Exception :
 	E2 : le joueur choisit emplacement de deck non disponible
 	- en SN3 : je joueur choisit emplacement de deck non disponible
 		- le systeme affiche un message qui conseil d'achetter un deck
-	
-	
-				
-		  

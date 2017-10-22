@@ -1,0 +1,10 @@
+*Nom:ajouter coordonnées bancaires.						*id: TV02.
+*Context:Un joueur connécté qui n'a pas renseigner ses coordonnées bancaires lors de la création de son compte.
+*Entrèes: nom, prénom, Numéro de la carte bancaire, date d'expiration de la carte bancaire. 
+*Sénario:
+	1-Le joueur choisit ajouter carte bancaire.
+	2-L'application affiche un formulaire.
+	3-La personne renseigner ses cordonnées bancaires.
+	4-L'application affiche un message indiquant le succès de l'enregistrement des coordonnées bancaires.
+*Résultat attendu: ajout de carte bancaire réussit, pouvoir faire des achats.
+*Moyen de vérification: vérification dans mon compte la présence des coordonnées bancaire, pouvoir faire des achats à condition qu'il y 'ait un solde permettant de faire ses achats, vérification que le solde a été débité de la somme correspandance.
