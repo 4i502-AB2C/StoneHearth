@@ -1292,10 +1292,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bDb04adREeeLZMDLDErqkw" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Component" xmi:id="_bKwLULG5EeeHT7dQcjRB6g" name="StoneHearth">
-      <ownedOperation xmi:id="_nV6goLG5EeeHT7dQcjRB6g" name="Achetter emplacement"/>
-      <ownedOperation xmi:id="_e0akMLG6EeeHT7dQcjRB6g" name="verif presence coordoné bancaire"/>
-    </packagedElement>
     <packagedElement xmi:type="uml:Collaboration" xmi:id="_XT1rQLJVEeenUo0BovABMw" name="Acheter Carte">
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_tKMTgLJVEeenUo0BovABMw" name="NominalCase">
         <eAnnotations xmi:id="_tL4VkLJVEeenUo0BovABMw" source="uml2.diagrams">
