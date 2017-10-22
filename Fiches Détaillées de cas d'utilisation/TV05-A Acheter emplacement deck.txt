@@ -8,7 +8,7 @@ SCÉNARIO :
 	2 - il confirme l'achat
 RÉSULTAT ATTENDU :
 	le système affiche la confirmation et l'emplacement de deck est bien ajouter
-MOYEN DE VITRIFICATION :
+MOYEN DE VÉRIFICATION :
 	le visuel de confirmation
 	Le nombre d'emplacements disponible pour enregistrer un deck a augmenté
 	Le compte a bien été débité
