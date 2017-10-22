@@ -1,0 +1,15 @@
+TITRE : Gérer un de deck
+ID : TV06-B
+CONTEXTE : Un joueur connecté a choisi de gérer un deck il possède plus de 30 carte et a on moins un emplacement de deck
+ENTRE : clique sur un gére un deck
+SCÉNARIO :
+1 - le joueur souhaite gérer deck
+	2 - il choisit l'emplacement
+	3 - il ne choisit que 10 carte
+	4 - il valide le deck
+	5 - il décide d'annuler
+RÉSULTAT ATTENDU :
+	Le système affiche la confirmation de l'annulation et le deck n’a pas été créer ou modifier
+MOYEN DE VITRIFICATION :
+	le visuel de confirmation
+	il n’y a eu aucune modification
