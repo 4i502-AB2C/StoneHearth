@@ -9,6 +9,6 @@ SCÉNARIO :
 	4 - il valide la modification
 RÉSULTAT ATTENDU :
 	Le système affiche la confirmation et les nouvelles informations du profil sont enregistrées
-MOYEN DE VITRIFICATION :
+MOYEN DE VÉRIFICATION :
 	le visuel de confirmation
 	Les informations on changer
