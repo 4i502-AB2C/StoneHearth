@@ -1,15 +1,15 @@
-TITRE : Gérer un de deck
+TITRE : GÃ©rer un de deck
 ID : TV06-A
-CONTEXTE : Un joueur connecté a choisi de gérer un deck il possède plus de 30 carte et a on moins un emplacement de deck
-ENTRE : clique sur un gére un deck
+CONTEXTE : Un joueur connectÃ© a choisi de gÃ©rer un deck il possÃ¨de plus de 30 carte et a on moins un emplacement de deck
+ENTRE : clique sur un gÃ©re un deck
 
-SCÉNARIO :
-	1 - le joueur souhaite gérer deck
+SCÃ‰NARIO :
+	1 - le joueur souhaite gÃ©rer deck
 	2 - il choisit l'emplacement
 	3 - il choisit 30 carte
 	4 - il valide le deck
-RÉSULTAT ATTENDU :
-	Le système affiche la confirmation et le deck a bien été crée ou modifier
-MOYEN DE VITRIFICATION :
+RÃ‰SULTAT ATTENDU :
+	Le systÃ¨me affiche la confirmation et le deck a bien Ã©tÃ© crÃ©e ou modifier
+MOYEN DE VÃ‰RIFICATION :
 	le visuel de confirmation
 	Le deck existe et comporte bien les cartes choisit lors d'une partie
