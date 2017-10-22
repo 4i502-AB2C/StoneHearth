@@ -1,4 +1,4 @@
-# UC22 - Détruire une carte
+# UC09 - Détruire une carte
 9/10/2017
 
 ## Description:
